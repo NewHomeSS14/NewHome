@@ -4254,3 +4254,53 @@ Entries:
   id: 8622
   time: '2025-09-02T15:03:25.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/441
+- author: Zenixic
+  changes:
+    - type: Add
+      message: added the BH Mule into normal shipyard
+  id: 8623
+  time: '2025-09-05T00:24:07.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/445
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: >-
+        Allowed explosives and EMPs to fire off on TO. Pirates go crazy,
+        self-antags get bwoinked
+  id: 8624
+  time: '2025-09-06T19:39:02.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/442
+- author: assignedgod
+  changes:
+    - type: Add
+      message: Added Arcadia POI
+    - type: Remove
+      message: Removed LPB (Goodnight, sweet prince)
+    - type: Tweak
+      message: Increased smuggling crate prices
+    - type: Fix
+      message: Fixed plasma blaster shooting through windows
+  id: 8625
+  time: '2025-09-06T19:47:09.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/447
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Replaces the water cooler on the BH Mule with a sink. Feroxi rejoice!
+  id: 8626
+  time: '2025-09-07T15:24:16.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/451
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Added the BH Scorpion into the expedition shipyard
+  id: 8627
+  time: '2025-09-07T15:26:30.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/446
+- author: assignedgod
+  changes:
+    - type: Remove
+      message: Removed corpse from Nyx
+  id: 8628
+  time: '2025-09-08T01:41:29.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/452
