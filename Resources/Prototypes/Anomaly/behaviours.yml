@@ -106,7 +106,7 @@
 
 - type: anomalyBehavior
   id: Fast
-  earnPointModifier: 1.8 # Frontier: 1.9<1.65
+  earnPointModifier: 1.8 # Frontier: 1.9<1.65 Aurora Song 1.65>1.8
   pulseFrequencyModifier: 0.5
   description: anomaly-behavior-fast
 

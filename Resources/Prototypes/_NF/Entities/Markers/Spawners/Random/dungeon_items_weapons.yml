@@ -310,7 +310,7 @@
   - type: RandomSpawner
     prototypes:
     - WeaponCaseLongLauncherRocketExpedition
-    - WeaponCaseLongJackdaw
+    - WeaponCaseLongJackdaw # Aurora Song moved from T2 to T5
     - WeaponCaseLongLauncherChinaLake
     - WeaponCaseHeavyLightMachineGunL6
     - WeaponCaseLongEnergyGunExpedition

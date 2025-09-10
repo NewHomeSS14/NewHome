@@ -17,8 +17,8 @@ public sealed partial class ChannelFilterPopup : Popup
     {
         ChatChannel.Local,
         ChatChannel.Whisper,
-        ChatChannel.Subtle,
-        ChatChannel.SubtleOOC,
+        ChatChannel.Subtle, // Aurora pulled from Den
+        ChatChannel.SubtleOOC, // Aurora pulled from Den
         ChatChannel.Emotes,
         ChatChannel.Radio,
         ChatChannel.Notifications,
