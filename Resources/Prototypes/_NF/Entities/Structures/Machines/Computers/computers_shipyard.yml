@@ -309,3 +309,35 @@
   - type: ShipyardListing
     shuttles:
     - MercyOfFreefall
+
+- type: entity
+  id: ComputerShipyardBlueHorizons
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyard]
+  name: Blue Horizons shipyard console
+  description: Used to buy Blue Horizons brand ships.
+  components:
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Expedition
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Expedition:
+        type: ShipyardConsoleBoundUserInterface
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardListing
+    shuttles:
+    - Bonsai
+    - Campfire
+    - Mule
+    - Scorpion
+    - Construct
+    - Heartbeat

@@ -8,7 +8,7 @@ frontier-lobby-crew-title = Crew
 frontier-lobby-crew-subtext = Start your round aboard a ship amongst a crew that is looking for new crewmembers to give them a helping hand, whether you are a new or seasoned pilot!
 
 # Station Menu
-frontier-lobby-frontier-subtext = Main hub for many space pioneers.
+frontier-lobby-frontier-subtext = A social hub for all of those visiting the area
 frontier-lobby-frontier-description = Awaken from cryosleep here to:
    - Start your own crew and become captain
    - Find a crew to join
@@ -25,26 +25,28 @@ frontier-lobby-exped-description = This is base camp for mercenaries and alike. 
    - Socialize with other mercenaries - or not.
 
 frontier-lobby-medical-subtext = The medical dispatch hub and search and rescue center.
-frontier-lobby-medical-description = Frontier's medical dispatch hub. Here you can:
+frontier-lobby-medical-description = The local hub for all medical work. Here you can:
    - Start or find a medical response crew
    - Socialize with other medics
-   - Purchase medical specialist ships
+   - Purchase a MMU (Mobile Medical Unit)
    - Drop off medical bounties
  {"["}color=gray]Some of the roles on this station are [color=lightblue]whitelist-only[/color] and require an application in the Discord to be accepted.[/color]
 
+# TODO: Kill this for NewHome
 frontier-lobby-nfsd-subtext = The center of operations for the  SLE.
 frontier-lobby-nfsd-description = The SLE is the center of operations for the Sheriff's department. Here you can:
    - Join the SLE
    - Apply for a bounty hunting license
    - Report crimes
 
-frontier-lobby-pirate-subtext = Where "X" marks the spot and rum never runs dry.
-frontier-lobby-pirate-description = This is the ultimate hideout where scallywags and pirates gather. Here you can:
-   - Start a pirate crew
+frontier-lobby-pirate-subtext = Where morality is a very dark shade of gray.
+frontier-lobby-pirate-description = This is the ultimate hideout for those who desire to do things the law may not approve of. Here you can:
+   - Start a crew
    - Find a crew to join
-   - Socialize with other pirates
+   - Socialize with others who dare to live on the edge of the law
  {"["}color=gray]Some of the roles on this station are [color=lightblue]whitelist-only[/color] and require an application in the Discord to be accepted.[/color]
 
+# TODO: Figure out what to do with edison for NewHome
 frontier-lobby-edison-subtext = Where the mechanically-minded mingle.
 frontier-lobby-edison-description = Frontier's heavy industrial base. Here you can:
    - Work on engineering and atmospheric projects

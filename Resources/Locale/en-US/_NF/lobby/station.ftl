@@ -1,2 +1,2 @@
-﻿station-frontier-outpost = Frontier Outpost
+﻿station-frontier-outpost = Local Outpost
 station-nsfd = SLE Outpost
