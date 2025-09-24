@@ -18,7 +18,7 @@
 #  special:
 #  - !type:GiveItemOnHolidaySpecial
 #    holiday: FrontierBirthday
-#    prototype: FrontierBirthdayGift
+#    prototype: FrontierBirthdayGift | Newhome: comment out holiday
 
 # Interview variant
 - type: job
