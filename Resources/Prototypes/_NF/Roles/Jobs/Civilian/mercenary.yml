@@ -15,6 +15,10 @@
   - Mercenary
   accessGroups:
   - GeneralAccess
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
 
 # Interview variant
 - type: job
