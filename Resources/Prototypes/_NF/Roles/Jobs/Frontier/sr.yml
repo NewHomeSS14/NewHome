@@ -27,9 +27,9 @@
     components:
       - type: CommandStaff
       - type: PreventShipyardTitleOverwrite
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FrontierBirthday
-    prototype: FrontierBirthdayGift
+#  - !type:GiveItemOnHolidaySpecial
+#    holiday: FrontierBirthday
+#    prototype: FrontierBirthdayGift | Newhome: comment out holiday
 
 - type: startingGear
   id: SrGear

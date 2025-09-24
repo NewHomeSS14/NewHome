@@ -23,10 +23,10 @@
   - External
   - Frontier
   - StationTrafficController
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FrontierBirthday
-    prototype: FrontierBirthdayGift
+#  special:
+#  - !type:GiveItemOnHolidaySpecial
+#    holiday: FrontierBirthday
+#    prototype: FrontierBirthdayGift | Newhome: comment out holiday
 
 - type: startingGear
   id: StcGear

@@ -33,9 +33,9 @@
     - type: DisableSuitSensors
   - !type:AddImplantSpecial
     implants: [ FreelanceTrackingImplant ]
-  - !type:GiveItemOnHolidaySpecial # Even pirates get a piece of cake.
-    holiday: FrontierBirthday
-    prototype: FrontierBirthdayGift
+#  - !type:GiveItemOnHolidaySpecial # Even pirates get a piece of cake.
+#    holiday: FrontierBirthday
+#    prototype: FrontierBirthdayGift | Newhome: comment out holiday
 
 - type: startingGear
   id: NFPirateCaptainGear
