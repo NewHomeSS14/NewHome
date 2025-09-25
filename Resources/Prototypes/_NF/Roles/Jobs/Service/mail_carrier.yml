@@ -22,6 +22,9 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+#  - !type:GiveItemOnHolidaySpecial # Frontier
+#    holiday: FrontierBirthday # Frontier
+#    prototype: FrontierBirthdayGift # Frontier | Newhome: comment out holiday
 
 - type: startingGear
   id: MailCarrierGear
