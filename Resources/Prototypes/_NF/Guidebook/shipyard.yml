@@ -35,6 +35,7 @@
   - ShipyardHauler
   - ShipyardHarbormaster
   - ShipyardHonker
+  - ShipyardInspiration
   - ShipyardInvestigator
   - ShipyardIzakaya
   - ShipyardKestrel
@@ -216,6 +217,11 @@
   id: ShipyardHonker
   name: guide-entry-shipyard-honker
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Honker.xml"
+  
+- type: guideEntry
+  id: ShipyardInspiration
+  name: guide-entry-shipyard-inspiration
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Inspiration.xml"
 
 - type: guideEntry
   id: ShipyardInvestigator
