@@ -9186,8 +9186,6 @@ entities:
       pos: 17.5,-2.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1741
     - type: AtmosPipeColor
@@ -9249,8 +9247,6 @@ entities:
     - type: AtmosPipeColor
       color: '#0055CCFF'
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1741
   - uid: 751
@@ -9438,8 +9434,6 @@ entities:
       pos: 18.5,-2.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1741
     - type: AtmosPipeLayers
@@ -9608,8 +9602,6 @@ entities:
       pos: 17.5,5.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1741
     - type: AtmosPipeLayers
@@ -11059,13 +11051,13 @@ entities:
         Hellos!
 
 
-        Vern noticeds Alli has been spendings lots ands lots more times with family latelys at homes and spendings nights overs... but Vern not happy seeings Alli sleepings on sofas ands suchs! 
+        Vern noticeds Alli has been spendings lots ands lots more times with family latelys at homes and spendings nights overs... but Vern not happy seeings Alli sleepings on sofas ands suchs!
 
 
         So Vern mades Alli owns rooms.
 
 
-        Alli hasn't spokens muchs with Vern latelys and hopes that not means Alli upsets with Vern abouts somethings. Vern always loves spendings times with family! 
+        Alli hasn't spokens muchs with Vern latelys and hopes that not means Alli upsets with Vern abouts somethings. Vern always loves spendings times with family!
 
 
         Love you Alli. Enjoy your room. ❤
