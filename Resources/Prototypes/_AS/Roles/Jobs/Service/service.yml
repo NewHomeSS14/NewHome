@@ -22,6 +22,9 @@
   special:
   - !type:AddImplantSpecial
     implants: [ TrackingImplant ]
+#  - !type:GiveItemOnHolidaySpecial
+#    holiday: FrontierBirthday
+#    prototype: FrontierBirthdayGift | Newhome: comment out holiday
 
 - type: startingGear
   id: ServiceGear

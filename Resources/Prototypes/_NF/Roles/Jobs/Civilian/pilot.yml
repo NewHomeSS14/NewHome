@@ -12,6 +12,10 @@
   displayWeight: 30 # Second from the top
   accessGroups: # Frontier
   - GeneralAccess
+#  special:
+#  - !type:GiveItemOnHolidaySpecial
+#    holiday: FrontierBirthday
+#    prototype: FrontierBirthdayGift | Newhome: comment out holiday
 
 # Interview variant
 - type: job

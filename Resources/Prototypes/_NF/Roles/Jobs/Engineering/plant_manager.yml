@@ -23,6 +23,9 @@
   - !type:AddComponentSpecial
     components:
       - type: PreventShipyardTitleOverwrite
+#  - !type:GiveItemOnHolidaySpecial
+#    holiday: FrontierBirthday
+#    prototype: FrontierBirthdayGift | Newhome: comment out holiday
 
 - type: startingGear
   id: PlantManagerGear
