@@ -7,19 +7,19 @@ If you're considering contributing to NewHome, [Wizard's Den's PR guidelines](ht
 Importantly, do not make webedits. From the text above:
 > Do not use GitHub's web editor to create PRs. PRs submitted through the web editor may be closed without review.
 
-"Upstream" refers to the [new-frontiers-14/frontier-station-14](https://github.com/new-frontiers-14/frontier-station-14) repository that this fork was created from.
+"Upstream" refers to the [/AuroraSong14/Aurora-Song-14](https://github.com/AuroraSong14/Aurora-Song-14) repository that this fork was created from.
 
 # NewHome specific content
 
-In general, anything you create from scratch (vs. modifying something that exists from upstream) should go in an NewHome subfolder, `_AS`.
+In general, anything you create from scratch (vs. modifying something that exists from upstream) should go in an NewHome subfolder, `_NH`.
 
 Examples:
-- `Content.Server/_AS/`
-- `Resources/Prototypes/_AS/`
-- `Resources/Audio/_AS/`
-- `Resources/Textures/_AS/`
-- `Resources/Locale/en-US/_AS/`
-- `Resources/ServerInfo/_AS/Guidebook/`
+- `Content.Server/_NH/`
+- `Resources/Prototypes/_NH/`
+- `Resources/Audio/_NH/`
+- `Resources/Textures/_NH/`
+- `Resources/Locale/en-US/_NH/`
+- `Resources/ServerInfo/_NH/Guidebook/`
 
 # Changes to upstream files
 
@@ -104,7 +104,7 @@ For ship submissons, refer to the [Ship Submission Guidelines](https://frontiers
 
 In general:
 
-NewHome uses specific prototypes for points of interest and ship maps (e.g. to store spawn information, station spawn data, or ship price and categories).  For ships, these are stored in the VesselPrototype (Resources/Prototypes/_NF/Shipyard) or PointOfInterestPrototype (Resources/Prototypes/_NF/PointsOfInterest).  If creating a new ship or POI, refer to existing prototypes, and submit new creations to Resources/Prototypes/_AS/Shipyard and Resources/Prototypes/_AS/PointsOfInterest respectively.
+NewHome uses specific prototypes for points of interest and ship maps (e.g. to store spawn information, station spawn data, or ship price and categories).  For ships, these are stored in the VesselPrototype (Resources/Prototypes/_NF/Shipyard) or PointOfInterestPrototype (Resources/Prototypes/_NF/PointsOfInterest).  If creating a new ship or POI, refer to existing prototypes, and submit new creations to Resources/Prototypes/_NH/Shipyard and Resources/Prototypes/_NH/PointsOfInterest respectively.
 
 If you are making changes to a map, check with the map's maintainer (or if none, its author), and avoid having multiple open features with changes to the same map.
 
