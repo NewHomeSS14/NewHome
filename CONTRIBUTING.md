@@ -11,15 +11,15 @@ Importantly, do not make webedits. From the text above:
 
 # NewHome specific content
 
-In general, anything you create from scratch (vs. modifying something that exists from upstream) should go in an NewHome subfolder, `_NH`.
+In general, anything you create from scratch (vs. modifying something that exists from upstream) should go in an NewHome subfolder, `_NewHome`.
 
 Examples:
-- `Content.Server/_NH/`
-- `Resources/Prototypes/_NH/`
-- `Resources/Audio/_NH/`
-- `Resources/Textures/_NH/`
-- `Resources/Locale/en-US/_NH/`
-- `Resources/ServerInfo/_NH/Guidebook/`
+- `Content.Server/_NewHome/`
+- `Resources/Prototypes/_NewHome/`
+- `Resources/Audio/_NewHome/`
+- `Resources/Textures/_NewHome/`
+- `Resources/Locale/en-US/_NewHome/`
+- `Resources/ServerInfo/_NewHome/Guidebook/`
 
 # Changes to upstream files
 
@@ -104,7 +104,7 @@ For ship submissons, refer to the [Ship Submission Guidelines](https://frontiers
 
 In general:
 
-NewHome uses specific prototypes for points of interest and ship maps (e.g. to store spawn information, station spawn data, or ship price and categories).  For ships, these are stored in the VesselPrototype (Resources/Prototypes/_NF/Shipyard) or PointOfInterestPrototype (Resources/Prototypes/_NF/PointsOfInterest).  If creating a new ship or POI, refer to existing prototypes, and submit new creations to Resources/Prototypes/_NH/Shipyard and Resources/Prototypes/_NH/PointsOfInterest respectively.
+NewHome uses specific prototypes for points of interest and ship maps (e.g. to store spawn information, station spawn data, or ship price and categories).  For ships, these are stored in the VesselPrototype (Resources/Prototypes/_NF/Shipyard) or PointOfInterestPrototype (Resources/Prototypes/_NF/PointsOfInterest).  If creating a new ship or POI, refer to existing prototypes, and submit new creations to Resources/Prototypes/_NewHome/Shipyard and Resources/Prototypes/_NewHome/PointsOfInterest respectively.
 
 If you are making changes to a map, check with the map's maintainer (or if none, its author), and avoid having multiple open features with changes to the same map.
 
