@@ -4565,3 +4565,123 @@ Entries:
   id: 8659
   time: '2025-10-02T17:41:31.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/525
+- author: TiredRat
+  changes:
+    - type: Add
+      message: QM Golden Knuckle Dusters to gamble crates. Rejoice.
+  id: 8660
+  time: '2025-10-04T01:38:47.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/528
+- author: Zenixic
+  changes:
+    - type: Fix
+      message: Fixed generators having too much storage
+  id: 8661
+  time: '2025-10-04T04:07:51.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/529
+- author: Inkbeanjo
+  changes:
+    - type: Add
+      message: >-
+        Added "Chip Nightmare" to the list of songs that play on expedition
+        timers running out.
+  id: 8662
+  time: '2025-10-09T13:25:41.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/533
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Ported Plasma/Uranium floor tiles from Frontier
+  id: 8663
+  time: '2025-10-09T14:56:38.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/535
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Made the jackdaw more accurate
+  id: 8664
+  time: '2025-10-10T22:09:18.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/530
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Redid pipes and added two stage airlock to the BH Mule
+  id: 8665
+  time: '2025-10-15T18:35:18.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/536
+- author: GreyScaleHarlequin
+  changes:
+    - type: Add
+      message: Two new laser weapons, accessible via research.
+  id: 8666
+  time: '2025-10-16T19:39:20.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/539
+- author: assignedgod
+  changes:
+    - type: Add
+      message: Added a loadout option for a chestrig with tools. Rejoice
+  id: 8667
+  time: '2025-10-16T19:45:18.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/540
+- author: assignedgod
+  changes:
+    - type: Add
+      message: Added merc webbing tool fill medic rig tool fill to merc loadouts
+    - type: Tweak
+      message: Changed merc tool fills to 2k
+  id: 8668
+  time: '2025-10-18T07:22:16.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/541
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: Added grn ylw and cyn suits to the uniform printer
+  id: 8669
+  time: '2025-10-18T07:26:10.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/542
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: >-
+        Made the syndicate hardsuits, pilot hardsuits, and wizard hardsuit have
+        usable headlamps 
+  id: 8670
+  time: '2025-10-18T07:26:49.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/544
+- author: GreyScaleHarlequin
+  changes:
+    - type: Tweak
+      message: Damage on Dual Optics weapons
+  id: 8671
+  time: '2025-10-18T22:43:12.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/547
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: changed splash logo
+  id: 8672
+  time: '2025-10-19T15:38:15.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/548
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: 'Lowered breakdown damage '
+  id: 8673
+  time: '2025-10-20T20:53:19.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/543
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Changed many wield-speed debuffs. Enjoy
+  id: 8674
+  time: '2025-10-20T21:21:27.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/538
+- author: GreyScaleHarlequin
+  changes:
+    - type: Tweak
+      message: >-
+        Dungeon loot tables for weapons retouched to respect the effectiveness
+        of the weapons at different tiers
+  id: 8675
+  time: '2025-10-21T14:35:55.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/549
