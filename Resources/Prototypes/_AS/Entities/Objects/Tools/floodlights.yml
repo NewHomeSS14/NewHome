@@ -6,7 +6,7 @@
   description: A pole with powerful mounted blue lights on it.
   components:
   - type: PointLight
-    color: "#FF00FF"
+    color: "#0000FFFF"
   - type: PhysicalComposition
     materialComposition:
       Glass: 250
@@ -20,7 +20,7 @@
   description: A pole with powerful mounted magenta lights on it.
   components:
   - type: PointLight
-    color: "#0000FFFF"
+    color: "#FF00FF"
   - type: PhysicalComposition
     materialComposition:
       Glass: 250
