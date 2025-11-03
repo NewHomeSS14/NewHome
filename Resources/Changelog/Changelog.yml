@@ -4763,3 +4763,10 @@ Entries:
   id: 8685
   time: '2025-10-30T17:09:07.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/560
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: Missing new sound font file
+  id: 8686
+  time: '2025-11-03T16:10:39.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/562
