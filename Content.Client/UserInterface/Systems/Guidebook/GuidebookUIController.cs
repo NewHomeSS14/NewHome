@@ -13,6 +13,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controllers;
 using Robust.Shared.Configuration;
 using static Robust.Client.UserInterface.Controls.BaseButton;
+using Robust.Shared.Timing; // Aurora
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
@@ -208,9 +209,15 @@ public sealed class GuidebookUIController : UIController, IOnStateEntered<LobbyS
         }
         _guideWindow.UpdateGuides(guides, rootEntries, forceRoot, selected);
 
-        // Expand up to depth-2.
-        _guideWindow.Tree.SetAllExpanded(false);
-        _guideWindow.Tree.SetAllExpanded(true, 0); // Frontier: 1->0 (too many entries at depth 2)
+        Timer.Spawn(TimeSpan.FromMilliseconds(100), () => // Aurora: Huge lag spike on guidebook opening, attempt to fix
+        {
+            if (_guideWindow?.Tree != null)
+            {
+                _guideWindow.Tree.SetAllExpanded(false);
+                _guideWindow.Tree.SetAllExpanded(true, 0); // Frontier: 1->0 (too many entries at depth 2)
+            }
+        });
+
 
         _guideWindow.OpenCenteredRight();
     }
