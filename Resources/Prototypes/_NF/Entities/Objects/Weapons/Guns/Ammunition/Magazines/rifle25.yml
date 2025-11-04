@@ -14,8 +14,9 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
     layers:
-    - state: red
+    - state: stripe
       map: ["enum.GunVisualLayers.Base"]
+      color: "#ff0000"
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
@@ -37,8 +38,9 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi
     layers:
-    - state: red
+    - state: stripe
       map: ["enum.GunVisualLayers.Base"]
+      color: "#ff0000"
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
@@ -56,8 +58,9 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag_short.rsi
     layers:
-    - state: red
+    - state: stripe
       map: ["enum.GunVisualLayers.Base"]
+      color: "#ff0000"
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 #endregion .25 Rifle mags | Aurora
