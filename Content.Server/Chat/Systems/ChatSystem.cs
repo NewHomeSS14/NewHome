@@ -36,7 +36,6 @@ using Robust.Shared.Replays;
 using Robust.Shared.Utility;
 using Content.Shared.Physics;
 using Robust.Shared.Physics;
-using Content.Server.Speech.Prototypes;
 using Content.Shared._DEN.Earmuffs;
 
 namespace Content.Server.Chat.Systems;
