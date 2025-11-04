@@ -55,14 +55,3 @@
     - id: JugCaramexinin # Frontier
   - type: Transform
     noRot: false
-  - type: Machine
-    board: SodaDispenserMachineCircuitboard
-  - type: GuideHelp
-    guides:
-    - Bartender
-    - Drinks
-
-- type: entity
-  parent: SodaDispenser
-  id: SodaDispenserEmpty
-  suffix: Empty
