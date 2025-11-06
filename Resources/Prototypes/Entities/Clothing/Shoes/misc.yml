@@ -142,9 +142,6 @@
   - type: ToggleClothing
     action: ActionToggleSpeedBoots
   - type: ClothingSpeedModifier
-    walkModifier: 1.5
-    sprintModifier: 1.5
-    standing: true
     walkModifier: 1.7 # DeltaV
     sprintModifier: 1.7 # DeltaV
     standing: true
