@@ -1,0 +1,17 @@
+﻿- type: species
+  id: Fairy
+  name: species-name-fairy
+  roundStart: true
+  prototype: MobFairy
+  sprites: MobHumanSprites
+  markingLimits: MobHumanMarkingLimits
+  dollPrototype: MobFairyDummy
+  skinColoration: HumanAnimal # DEN
+  # Had to comment these out for now, will work on implementing them for all species later
+#  minHeight: 0.65
+#  defaultHeight: 0.8
+#  maxHeight: 1.1
+#  minWidth: 0.6
+#  defaultWidth: 0.8
+#  maxWidth: 1.15
+
