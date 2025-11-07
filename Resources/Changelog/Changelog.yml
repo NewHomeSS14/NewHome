@@ -4804,3 +4804,10 @@ Entries:
   id: 8826
   time: '2025-11-07T07:20:40.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/581
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: emote wheel errors
+  id: 8827
+  time: '2025-11-07T07:44:14.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/582
