@@ -49,7 +49,7 @@
     captureTargets:
       MobHuman:
         expectedCount: 1
-        rewardPerTarget: 1000
+        rewardPerTarget: 10000000
         penaltyPerMissing: 500
     eliminationTargets:
       MobMouse:

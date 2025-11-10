@@ -324,110 +324,110 @@ public sealed class BluespaceErrorBountyRule : StationEventSystem<BluespaceError
         // Process all results AFTER scanning all grids
         // Process capture results
         foreach (var (protoId, target) in component.CaptureTargets)
+        {
+            if (target.ExpectedCount <= 0)
+                continue;
+
+            var captured = captureCounters.GetValueOrDefault(protoId);
+            var missing = Math.Max(0, target.ExpectedCount - captured);
+            var reward = captured * target.RewardPerTarget;
+            var penalty = missing * target.PenaltyPerMissing;
+            totalReward += reward - penalty;
+            stats[$"capture_{protoId}"] = (captured, target.ExpectedCount);
+
+            if (captured >= target.ExpectedCount)
             {
-                if (target.ExpectedCount <= 0)
-                    continue;
-
-                var captured = captureCounters.GetValueOrDefault(protoId);
-                var missing = Math.Max(0, target.ExpectedCount - captured);
-                var reward = captured * target.RewardPerTarget;
-                var penalty = missing * target.PenaltyPerMissing;
-                totalReward += reward - penalty;
-                stats[$"capture_{protoId}"] = (captured, target.ExpectedCount);
-
-                if (captured >= target.ExpectedCount)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ✓ Capture {protoId}: SUCCESS - {captured}/{target.ExpectedCount} captured (reward: +{reward})");
-                }
-                else if (captured > 0)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ⚠ Capture {protoId}: PARTIAL - {captured}/{target.ExpectedCount} captured, {missing} missing (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
-                }
-                else
-                {
-                    Log.Warning($"[BOUNTY DEBUG] ✗ Capture {protoId}: FAILED - 0/{target.ExpectedCount} captured (penalty: -{penalty})");
-                }
+                Log.Info($"[BOUNTY DEBUG] ✓ Capture {protoId}: SUCCESS - {captured}/{target.ExpectedCount} captured (reward: +{reward})");
             }
-
-            // Process elimination results
-            foreach (var (protoId, target) in component.EliminationTargets)
+            else if (captured > 0)
             {
-                if (target.ExpectedCount <= 0)
-                    continue;
-
-                var (dead, alive) = eliminationCounters.GetValueOrDefault(protoId);
-                var reward = dead * target.RewardPerTarget;
-                var penalty = alive * target.PenaltyPerSurvivor;
-                totalReward += reward - penalty;
-                stats[$"eliminate_{protoId}"] = (dead, target.ExpectedCount);
-
-                if (dead >= target.ExpectedCount && alive == 0)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ✓ Eliminate {protoId}: SUCCESS - {dead}/{target.ExpectedCount} eliminated, 0 survivors (reward: +{reward})");
-                }
-                else if (dead > 0)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ⚠ Eliminate {protoId}: PARTIAL - {dead}/{target.ExpectedCount} eliminated, {alive} still alive (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
-                }
-                else
-                {
-                    Log.Warning($"[BOUNTY DEBUG] ✗ Eliminate {protoId}: FAILED - 0/{target.ExpectedCount} eliminated, {alive} still alive (penalty: -{penalty})");
-                }
+                Log.Info($"[BOUNTY DEBUG] ⚠ Capture {protoId}: PARTIAL - {captured}/{target.ExpectedCount} captured, {missing} missing (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
             }
-
-            // Process removal results
-            foreach (var (protoId, target) in component.RemovalTargets)
+            else
             {
-                if (target.ExpectedCount <= 0)
-                    continue;
-
-                var remaining = removalCounters.GetValueOrDefault(protoId);
-                var removed = Math.Max(0, target.ExpectedCount - remaining);
-                var reward = removed * target.RewardPerRemoved;
-                var penalty = remaining * target.PenaltyPerRemaining;
-                totalReward += reward - penalty;
-                stats[$"remove_{protoId}"] = (removed, target.ExpectedCount);
-
-                if (remaining == 0 && removed >= target.ExpectedCount)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ✓ Remove {protoId}: SUCCESS - {removed}/{target.ExpectedCount} removed, 0 remaining (reward: +{reward})");
-                }
-                else if (removed > 0)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ⚠ Remove {protoId}: PARTIAL - {removed}/{target.ExpectedCount} removed, {remaining} still on grid (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
-                }
-                else
-                {
-                    Log.Warning($"[BOUNTY DEBUG] ✗ Remove {protoId}: FAILED - 0/{target.ExpectedCount} removed, {remaining} still on grid (penalty: -{penalty})");
-                }
+                Log.Warning($"[BOUNTY DEBUG] ✗ Capture {protoId}: FAILED - 0/{target.ExpectedCount} captured (penalty: -{penalty})");
             }
+        }
 
-            // Process rescue results
-            foreach (var (protoId, target) in component.RescueTargets)
+        // Process elimination results
+        foreach (var (protoId, target) in component.EliminationTargets)
+        {
+            if (target.ExpectedCount <= 0)
+                continue;
+
+            var (dead, alive) = eliminationCounters.GetValueOrDefault(protoId);
+            var reward = dead * target.RewardPerTarget;
+            var penalty = alive * target.PenaltyPerSurvivor;
+            totalReward += reward - penalty;
+            stats[$"eliminate_{protoId}"] = (dead, target.ExpectedCount);
+
+            if (dead >= target.ExpectedCount && alive == 0)
             {
-                if (target.ExpectedCount <= 0)
-                    continue;
-
-                var rescued = rescueCounters.GetValueOrDefault(protoId);
-                var missing = Math.Max(0, target.ExpectedCount - rescued);
-                var reward = rescued * target.RewardPerTarget;
-                var penalty = missing * target.PenaltyPerMissing;
-                totalReward += reward - penalty;
-                stats[$"rescue_{protoId}"] = (rescued, target.ExpectedCount);
-
-                if (rescued >= target.ExpectedCount)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ✓ Rescue {protoId}: SUCCESS - {rescued}/{target.ExpectedCount} rescued (alive & not cuffed) (reward: +{reward})");
-                }
-                else if (rescued > 0)
-                {
-                    Log.Info($"[BOUNTY DEBUG] ⚠ Rescue {protoId}: PARTIAL - {rescued}/{target.ExpectedCount} rescued, {missing} failed (dead or cuffed) (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
-                }
-                else
-                {
-                    Log.Warning($"[BOUNTY DEBUG] ✗ Rescue {protoId}: FAILED - 0/{target.ExpectedCount} rescued, all dead or cuffed (penalty: -{penalty})");
-                }
+                Log.Info($"[BOUNTY DEBUG] ✓ Eliminate {protoId}: SUCCESS - {dead}/{target.ExpectedCount} eliminated, 0 survivors (reward: +{reward})");
             }
+            else if (dead > 0)
+            {
+                Log.Info($"[BOUNTY DEBUG] ⚠ Eliminate {protoId}: PARTIAL - {dead}/{target.ExpectedCount} eliminated, {alive} still alive (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
+            }
+            else
+            {
+                Log.Warning($"[BOUNTY DEBUG] ✗ Eliminate {protoId}: FAILED - 0/{target.ExpectedCount} eliminated, {alive} still alive (penalty: -{penalty})");
+            }
+        }
+
+        // Process removal results
+        foreach (var (protoId, target) in component.RemovalTargets)
+        {
+            if (target.ExpectedCount <= 0)
+                continue;
+
+            var remaining = removalCounters.GetValueOrDefault(protoId);
+            var removed = Math.Max(0, target.ExpectedCount - remaining);
+            var reward = removed * target.RewardPerRemoved;
+            var penalty = remaining * target.PenaltyPerRemaining;
+            totalReward += reward - penalty;
+            stats[$"remove_{protoId}"] = (removed, target.ExpectedCount);
+
+            if (remaining == 0 && removed >= target.ExpectedCount)
+            {
+                Log.Info($"[BOUNTY DEBUG] ✓ Remove {protoId}: SUCCESS - {removed}/{target.ExpectedCount} removed, 0 remaining (reward: +{reward})");
+            }
+            else if (removed > 0)
+            {
+                Log.Info($"[BOUNTY DEBUG] ⚠ Remove {protoId}: PARTIAL - {removed}/{target.ExpectedCount} removed, {remaining} still on grid (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
+            }
+            else
+            {
+                Log.Warning($"[BOUNTY DEBUG] ✗ Remove {protoId}: FAILED - 0/{target.ExpectedCount} removed, {remaining} still on grid (penalty: -{penalty})");
+            }
+        }
+
+        // Process rescue results
+        foreach (var (protoId, target) in component.RescueTargets)
+        {
+            if (target.ExpectedCount <= 0)
+                continue;
+
+            var rescued = rescueCounters.GetValueOrDefault(protoId);
+            var missing = Math.Max(0, target.ExpectedCount - rescued);
+            var reward = rescued * target.RewardPerTarget;
+            var penalty = missing * target.PenaltyPerMissing;
+            totalReward += reward - penalty;
+            stats[$"rescue_{protoId}"] = (rescued, target.ExpectedCount);
+
+            if (rescued >= target.ExpectedCount)
+            {
+                Log.Info($"[BOUNTY DEBUG] ✓ Rescue {protoId}: SUCCESS - {rescued}/{target.ExpectedCount} rescued (alive & not cuffed) (reward: +{reward})");
+            }
+            else if (rescued > 0)
+            {
+                Log.Info($"[BOUNTY DEBUG] ⚠ Rescue {protoId}: PARTIAL - {rescued}/{target.ExpectedCount} rescued, {missing} failed (dead or cuffed) (reward: +{reward}, penalty: -{penalty}, net: {reward - penalty})");
+            }
+            else
+            {
+                Log.Warning($"[BOUNTY DEBUG] ✗ Rescue {protoId}: FAILED - 0/{target.ExpectedCount} rescued, all dead or cuffed (penalty: -{penalty})");
+            }
+        }
 
         Log.Info($"[BOUNTY DEBUG] ProcessBountyObjectives complete. Total reward: {totalReward}");
         return (totalReward, stats);
