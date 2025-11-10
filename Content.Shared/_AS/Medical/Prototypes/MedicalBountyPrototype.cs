@@ -1,5 +1,6 @@
 // Aurora Song - AS Medical Bounty System
-// Separate implementation from NF Medical Bounty System
+// Based on New Frontier Station 14's Medical Bounty System
+// Original implementation: https://github.com/new-frontiers-14/frontier-station-14
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Damage.Prototypes;
 using Robust.Shared.Prototypes;

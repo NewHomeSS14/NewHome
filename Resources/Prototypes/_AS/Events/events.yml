@@ -1,3 +1,7 @@
+# Aurora Song - Bluespace Triage Event
+# Based on New Frontier Station 14's Bluespace Grid Event
+# Original implementation: https://github.com/new-frontiers-14/frontier-station-14
+
 - type: entity
   id: ASBluespaceTriageEvent
   parent: BaseStationEventShortDelay
@@ -34,9 +38,17 @@
         paths:
         # Add your grid map files here
         - /Maps/_AS/Shuttles/Triage/tyne.yml
+        - /Maps/_AS/Shuttles/Triage/tyne_merc.yml
+        - /Maps/_AS/Shuttles/Triage/tyne_xeno.yml
         - /Maps/_AS/Shuttles/Triage/searchlight.yml
+        - /Maps/_AS/Shuttles/Triage/searchlight_merc.yml
+        - /Maps/_AS/Shuttles/Triage/searchlight_xeno.yml
         - /Maps/_AS/Shuttles/Triage/caduceus.yml
+        - /Maps/_AS/Shuttles/Triage/caduceus_merc.yml
+        - /Maps/_AS/Shuttles/Triage/caduceus_xeno.yml
         - /Maps/_AS/Shuttles/Triage/apothecary.yml
+        - /Maps/_AS/Shuttles/Triage/apothecary_merc.yml
+        - /Maps/_AS/Shuttles/Triage/apothecary_xeno.yml
   - type: ActiveRadio
     channels:
     - Medical

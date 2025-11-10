@@ -1,10 +1,20 @@
+# Aurora Song - AS Medical Bounty System
+# Based on New Frontier's Medical Bounty System
+# Original implementation by New Frontier Station
 # Spawner for filled medical beds with a patient
 - type: entity
   id: ASMedicalBedFilledSpawner
   name: medical bed + patient spawner
+  parent: MarkerBase
   suffix: Filled, Random
   categories: [ HideSpawnMenu ]
   components:
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Structures/Furniture/furniture.rsi
+      state: bed
+    - state: red
   - type: RandomSpawner
     deleteSpawnerAfterSpawn: true
     prototypes:

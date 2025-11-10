@@ -1,4 +1,6 @@
 # Aurora Song - AS Medical Bounty System Localization
+# Based on New Frontier Station 14's Medical Bounty System
+# Original implementation: https://github.com/new-frontiers-14/frontier-station-14
 
 ## UI Strings
 as-medical-bounty-redemption-ui-title = Patient Discharge Terminal

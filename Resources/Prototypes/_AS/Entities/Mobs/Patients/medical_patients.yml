@@ -1,4 +1,6 @@
 # Aurora Song - AS Medical Bounty System
+# Based on New Frontier Station 14's Medical Bounty System
+# Original implementation: https://github.com/new-frontiers-14/frontier-station-14
 # Patient entities spawned on medical beds with AS medical bounties
 # These patients need to be healed and redeemed for rewards
 
@@ -70,6 +72,9 @@
 # Base humanoid settings for AS medical bounty patients
 - type: randomHumanoidSettings
   id: ASMedicalBountyBase
+  randomizeName: true # Patients should have names
+  speciesBlacklist:
+  - IPC # IPCs don't work well with medical damage mechanics
   components:
   - type: StinkyTrait
   - type: Carriable # Carrying system
@@ -86,10 +91,6 @@
     useArgumentEntity: true
   # Aurora Song: AS Medical bounty-specific component
   - type: ASMedicalBounty
-  - type: RandomHumanoidAppearance
-    randomizeName: true # Patients should have names
-    speciesBlacklist:
-    - IPC # IPCs don't work well with medical damage mechanics
   - type: NpcFactionMember
     factions:
     - NanoTrasen # Friendly turrets shouldn't attack patients
@@ -98,39 +99,38 @@
   - type: SSDIndicator
     icon: MedSSDIcon
     preventSleep: true
+  # Vocalizer for random patient dialogue
+  - type: Vocalizer
+    minVocalizeInterval: 45
+    maxVocalizeInterval: 180
+  - type: DatasetVocalizer
+    dataset: asmedicalpatientchatter
 
 # Department-specific settings (inherit from base + department loadout)
 - type: randomHumanoidSettings
-  parent: ASMedicalBountyBase
+  parent: [ASMedicalBountyBase, NFRandomLoadoutService]
   id: ASMedicalBountyService
-  # Will inherit service department loadout if available
 
 - type: randomHumanoidSettings
-  parent: ASMedicalBountyBase
+  parent: [ASMedicalBountyBase, NFRandomLoadoutEngineering]
   id: ASMedicalBountyEngineering
-  # Will inherit engineering department loadout if available
 
 - type: randomHumanoidSettings
-  parent: ASMedicalBountyBase
+  parent: [ASMedicalBountyBase, NFRandomLoadoutCargo]
   id: ASMedicalBountyCargo
-  # Will inherit cargo department loadout if available
 
 - type: randomHumanoidSettings
-  parent: ASMedicalBountyBase
+  parent: [ASMedicalBountyBase, NFRandomLoadoutMedical]
   id: ASMedicalBountyMedical
-  # Will inherit medical department loadout if available
 
 - type: randomHumanoidSettings
-  parent: ASMedicalBountyBase
+  parent: [ASMedicalBountyBase, NFRandomLoadoutScience]
   id: ASMedicalBountyScience
-  # Will inherit science department loadout if available
 
 - type: randomHumanoidSettings
-  parent: ASMedicalBountyBase
+  parent: [ASMedicalBountyBase, NFRandomLoadoutSecurity]
   id: ASMedicalBountySecurity
-  # Will inherit security department loadout if available
 
 - type: randomHumanoidSettings
-  parent: ASMedicalBountyBase
+  parent: [ASMedicalBountyBase, NFRandomLoadoutCommand]
   id: ASMedicalBountyCommand
-  # Will inherit command department loadout if available

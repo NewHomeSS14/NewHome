@@ -1,4 +1,6 @@
 ﻿# Aurora Song - AS Medical Bounty System
+# Based on New Frontier Station 14's Medical Bounty System
+# Original implementation: https://github.com/new-frontiers-14/frontier-station-14
 # Redemption machine for AS medical bounties
 
 - type: entity
@@ -10,6 +12,7 @@
   - type: Sprite
     sprite: _NF/Structures/Machines/body_retrieval_unit.rsi
     snapCardinals: true
+    color: "#A0C0FF"
     layers:
     - state: closed
       map: ["base"]
@@ -24,6 +27,9 @@
   - type: ActivatableUI
     key: enum.ASMedicalBountyRedemptionUiKey.Key
   - type: ActivatableUIRequiresPower
+  - type: AccessReader
+    access: [["Medical"]]
+  - type: ActivatableUIRequiresAccess
   - type: InteractionOutline
   - type: Physics
     bodyType: Static

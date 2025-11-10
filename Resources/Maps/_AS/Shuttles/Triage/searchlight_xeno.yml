@@ -1,6 +1,7 @@
-# Aurora Song - Triage Shuttle: Searchlight
+# Aurora Song - Triage Shuttle: Searchlight (Xenobiological Variant)
 # Modified copy of original shuttle design from New Frontier Station 14
 # Original implementation: https://github.com/new-frontiers-14/frontier-station-14
+# Theme: Xenofauna injury treatment operations
 
 meta:
   format: 7
@@ -3079,5 +3080,19 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 2.5,-7.5
+      parent: 1
+- proto: NFSpawnMobXenoT1
+  entities:
+  - uid: 394
+    components:
+    - type: Transform
+      pos: 1.5,-5.5
+      parent: 1
+- proto: NFSpawnMobXenoT2
+  entities:
+  - uid: 395
+    components:
+    - type: Transform
+      pos: 1.5,-8.5
       parent: 1
 ...

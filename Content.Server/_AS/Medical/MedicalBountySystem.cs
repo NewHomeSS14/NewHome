@@ -1,5 +1,6 @@
 // Aurora Song - AS Medical Bounty System
-// Separate implementation from NF Medical Bounty System
+// Based on New Frontier Station 14's Medical Bounty System
+// Original implementation: https://github.com/new-frontiers-14/frontier-station-14
 // This system handles the initialization of medical bounties and their redemption
 using System.Linq;
 using Content.Server._NF.Bank;

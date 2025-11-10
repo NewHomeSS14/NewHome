@@ -1,4 +1,6 @@
 # Aurora Song - AS Medical Bounty System
+# Based on New Frontier Station 14's Medical Bounty System
+# Original implementation: https://github.com/new-frontiers-14/frontier-station-14
 # Medical bounty prototypes for AS patients spawned in medical beds
 # These define the damage/reagent profiles and rewards for healing patients
 
