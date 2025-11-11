@@ -231,7 +231,7 @@
   suffix: NFSD
   components:
   - type: StationBankATM
-    account: Nfsd
+    account: Sle # Aurora Song - Changed from Nfsd to Sle (Station Law Enforcement)
 
 - type: entity
   parent: BaseStationAdminBankATM

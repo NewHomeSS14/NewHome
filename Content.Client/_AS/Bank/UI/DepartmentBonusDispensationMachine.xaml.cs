@@ -30,8 +30,22 @@ public sealed partial class DepartmentBonusDispensationMachine : FancyWindow
         _currentState = state;
 
         DepartmentLabel.Text = Loc.GetString("department-bonus-machine-department", ("dept", state.DepartmentName));
-        RateLabel.Text = $"{state.TaxRate * 100:F1}%";
+        RateLabel.Text = $"{state.AllocationRate * 100:F1}%"; // Aurora Song - Renamed from TaxRate to AllocationRate
         StoredLabel.Text = $"{state.StoredAmount} / {state.MaxStoredAmount}";
+
+        // Aurora Song - Calculate and display expected next withdrawal
+        var expectedWithdrawal = (int)(state.CurrentDepartmentBalance * state.AllocationRate); // Aurora Song - Renamed from TaxRate to AllocationRate
+
+        // Round down to nearest 10 (minimum denomination) to match server calculation
+        expectedWithdrawal = (expectedWithdrawal / 10) * 10; // Aurora Song - Match server-side rounding
+
+        var spaceLeft = state.MaxStoredAmount - state.StoredAmount;
+        expectedWithdrawal = Math.Min(expectedWithdrawal, spaceLeft);
+
+        // Round down again after capacity check to match server logic
+        expectedWithdrawal = (expectedWithdrawal / 10) * 10; // Aurora Song - Match server-side rounding after capacity check
+
+        NextWithdrawalLabel.Text = $"{expectedWithdrawal} spesos";
 
         UpdateTimer();
 

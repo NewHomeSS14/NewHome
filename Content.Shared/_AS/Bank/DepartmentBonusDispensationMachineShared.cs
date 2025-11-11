@@ -15,26 +15,29 @@ public enum DepartmentBonusDispensationMachineUiKey : byte
 public sealed class DepartmentBonusDispensationMachineBoundUserInterfaceState : BoundUserInterfaceState
 {
     public string DepartmentName { get; }
-    public float TaxRate { get; }
+    public float AllocationRate { get; } // Aurora Song - Renamed from TaxRate to AllocationRate
     public int StoredAmount { get; }
     public int MaxStoredAmount { get; }
     public bool Enabled { get; }
     public TimeSpan NextWithdrawal { get; }
+    public int CurrentDepartmentBalance { get; } // Aurora Song - Added to show expected next withdrawal
 
     public DepartmentBonusDispensationMachineBoundUserInterfaceState(
         string departmentName,
-        float taxRate,
+        float allocationRate, // Aurora Song - Renamed from taxRate to allocationRate
         int storedAmount,
         int maxStoredAmount,
         bool enabled,
-        TimeSpan nextWithdrawal)
+        TimeSpan nextWithdrawal,
+        int currentDepartmentBalance = 0) // Aurora Song - Added parameter
     {
         DepartmentName = departmentName;
-        TaxRate = taxRate;
+        AllocationRate = allocationRate; // Aurora Song - Renamed from TaxRate to AllocationRate
         StoredAmount = storedAmount;
         MaxStoredAmount = maxStoredAmount;
         Enabled = enabled;
         NextWithdrawal = nextWithdrawal;
+        CurrentDepartmentBalance = currentDepartmentBalance;
     }
 }
 

@@ -14,7 +14,8 @@ ledger-balance = Balance:
 ledger-no-balance = N/A
 
 ledger-tab-Frontier = Frontier Outpost
-ledger-tab-Sle = SLE # Aurora Song - Changed from ledger-tab-Nfsd to ledger-tab-Sle
+# Aurora Song - Changed from ledger-tab-Nfsd to ledger-tab-Sle
+ledger-tab-Sle = SLE
 ledger-tab-Medical = Medical Dispatch
 ledger-tab-Edison = Edison
 # Fallback, if this displays, something's wrong.

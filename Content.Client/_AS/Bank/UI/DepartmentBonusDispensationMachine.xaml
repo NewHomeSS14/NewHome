@@ -24,6 +24,10 @@
                         <Label Name="StoredLabel" Text="0 / 100000" Margin="5 0" Access="Public"/>
                     </BoxContainer>
                     <BoxContainer Orientation="Horizontal" Margin="0 5">
+                        <Label Text="{Loc 'department-bonus-machine-next-withdrawal'}"/>
+                        <Label Name="NextWithdrawalLabel" Text="0 spesos" Margin="5 0" Access="Public"/>
+                    </BoxContainer>
+                    <BoxContainer Orientation="Horizontal" Margin="0 5">
                         <Label Text="{Loc 'department-bonus-machine-next'}"/>
                         <Label Name="NextPayoutLabel" Text="5:00" Margin="5 0" Access="Public"/>
                     </BoxContainer>
@@ -33,8 +37,8 @@
 
         <!-- Action Button -->
         <BoxContainer Orientation="Vertical" Margin="5" VerticalAlignment="Bottom">
-            <Button Name="EjectButton" 
-                    Text="{Loc 'department-bonus-machine-dispense'}" 
+            <Button Name="EjectButton"
+                    Text="{Loc 'department-bonus-machine-dispense'}"
                     StyleClasses="ButtonColorGreen"
                     MinHeight="40"
                     Access="Public"/>

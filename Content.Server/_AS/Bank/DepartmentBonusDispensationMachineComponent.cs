@@ -25,7 +25,7 @@ public sealed partial class DepartmentBonusDispensationMachineComponent : Compon
     /// Default: 0.1 (10%)
     /// </summary>
     [DataField]
-    public float TaxRate = 0.1f;
+    public float AllocationRate = 0.1f; // Aurora Song - Renamed from TaxRate to AllocationRate
 
     /// <summary>
     /// How often to allocate bonus funds, in seconds

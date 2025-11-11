@@ -87,7 +87,13 @@ public sealed class DepartmentBonusDispensationMachineSystem : EntitySystem
             return;
 
         // Calculate bonus allocation amount (percentage of current balance)
-        var withdrawAmount = (int)(balance * component.TaxRate);
+        var withdrawAmount = (int)(balance * component.AllocationRate); // Aurora Song - Renamed from TaxRate to AllocationRate
+
+        if (withdrawAmount <= 0)
+            return;
+
+        // Round down to nearest 10 (minimum denomination) to avoid partial currency
+        withdrawAmount = (withdrawAmount / 10) * 10;
 
         if (withdrawAmount <= 0)
             return;
@@ -95,6 +101,12 @@ public sealed class DepartmentBonusDispensationMachineSystem : EntitySystem
         // Ensure we don't exceed storage capacity
         var spaceLeft = component.MaxStoredAmount - component.StoredAmount;
         withdrawAmount = Math.Min(withdrawAmount, spaceLeft);
+
+        // Round down again after capacity check to ensure multiple of 10
+        withdrawAmount = (withdrawAmount / 10) * 10; // Aurora Song - Ensure result is still multiple of 10
+
+        if (withdrawAmount <= 0)
+            return;
 
         // Attempt to allocate from department budget
         if (_bank.TrySectorWithdraw(component.TargetDepartment, withdrawAmount, LedgerEntryType.DepartmentTax))
@@ -117,8 +129,16 @@ public sealed class DepartmentBonusDispensationMachineSystem : EntitySystem
             return;
         }
 
+        // Round down to nearest 10 to match what can actually be spawned
+        var amountToEject = (component.StoredAmount / 10) * 10; // Aurora Song - Only dispense multiples of 10
+
+        if (amountToEject <= 0)
+        {
+            _popup.PopupEntity("Not enough funds to dispense! (Minimum 10 spesos)", uid, args.Actor);
+            return;
+        }
+
         // Spawn currency
-        var amountToEject = component.StoredAmount;
         SpawnCurrency(uid, component, amountToEject);
 
         // Clear storage
@@ -128,7 +148,7 @@ public sealed class DepartmentBonusDispensationMachineSystem : EntitySystem
         if (component.EjectSound != null)
             _audio.PlayPvs(component.EjectSound, uid);
 
-        _popup.PopupEntity($"Dispensed {amountToEject} spacebucks in staff bonuses!", uid, args.Actor);
+        _popup.PopupEntity($"Dispensed {amountToEject} spesos in staff bonuses!", uid, args.Actor); // Aurora Song - Changed "spacebucks" to "spesos"
 
         UpdateUI(uid, component);
     }
@@ -138,7 +158,7 @@ public sealed class DepartmentBonusDispensationMachineSystem : EntitySystem
         var xform = Transform(uid);
 
         // Spawn in appropriate denominations
-        while (amount > 0)
+        while (amount >= 10) // Aurora Song - Only spawn if we have at least 10 spesos (minimum denomination)
         {
             // Determine denomination to spawn
             string protoId;
@@ -174,31 +194,48 @@ public sealed class DepartmentBonusDispensationMachineSystem : EntitySystem
             var count = amount / denom;
             if (count > 0)
             {
-                // Spawn as a stack if more than 1
+                // Spawn the cash entity (already has default stack count = denom)
                 var cashEnt = Spawn(protoId, xform.Coordinates);
+
+                // If we need more than 1 of this denomination, adjust the stack count
                 if (count > 1 && TryComp<StackComponent>(cashEnt, out var stack))
                 {
                     var maxCount = _stack.GetMaxCount(stack);
-                    _stack.SetCount(cashEnt, Math.Min(count, maxCount), stack);
-                    amount -= denom * Math.Min(count, maxCount);
+                    var actualCount = Math.Min(count, maxCount);
+
+                    // SetCount sets the total spesos value, so multiply by denomination
+                    _stack.SetCount(cashEnt, actualCount * denom, stack); // Aurora Song - Multiply by denom to get total value
+                    amount -= denom * actualCount;
                 }
                 else
                 {
+                    // Single bill, already has correct value from prototype
                     amount -= denom;
                 }
+            }
+            else
+            {
+                // Safety: if count is 0, break to prevent infinite loop
+                break;
             }
         }
     }
 
     private void UpdateUI(EntityUid uid, DepartmentBonusDispensationMachineComponent component)
     {
+        // Get current department balance for UI display
+        var currentBalance = 0;
+        if (_bank.TryGetBalance(component.TargetDepartment, out var balance))
+            currentBalance = balance;
+
         var state = new DepartmentBonusDispensationMachineBoundUserInterfaceState(
             component.TargetDepartment.ToString(),
-            component.TaxRate,
+            component.AllocationRate, // Aurora Song - Renamed from TaxRate to AllocationRate
             component.StoredAmount,
             component.MaxStoredAmount,
             component.Enabled,
-            component.NextWithdrawal
+            component.NextWithdrawal,
+            currentBalance // Aurora Song - Pass current balance to calculate expected next withdrawal
         );
 
         _ui.SetUiState(uid, DepartmentBonusDispensationMachineUiKey.Key, state);

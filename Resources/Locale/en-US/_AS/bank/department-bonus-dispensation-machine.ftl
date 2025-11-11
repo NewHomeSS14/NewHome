@@ -6,6 +6,7 @@ department-bonus-machine-department = Department: {$dept}
 department-bonus-machine-info = Periodically allocates funds for staff bonuses
 department-bonus-machine-rate = Allocation Rate:
 department-bonus-machine-stored = Bonus Pool:
+department-bonus-machine-next-withdrawal = Next Withdrawal:
 department-bonus-machine-next = Next Payout:
 department-bonus-machine-dispense = Dispense Bonuses
 
