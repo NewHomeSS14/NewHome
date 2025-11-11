@@ -54,7 +54,8 @@ namespace Content.Client.Lobby.UI
         private readonly MarkingManager _markingManager;
         private readonly JobRequirementsManager _requirements;
         private readonly LobbyUIController _controller;
-        private readonly SpriteSystem _sprite;
+        private readonly SpriteSystem _sprite;  // Aurora
+        private readonly IEntityManager _entityManager; // Aurora
 
         // CCvar.
         private int _maxNameLength;
@@ -114,6 +115,9 @@ namespace Content.Client.Lobby.UI
 
         private ISawmill _sawmill;
 
+        private EntityUid? _previewEntity;
+
+        private SpriteView _spriteview = default!;
         public HumanoidProfileEditor(
             IClientPreferencesManager preferencesManager,
             IConfigurationManager configurationManager,
@@ -233,9 +237,23 @@ namespace Content.Client.Lobby.UI
             SpeciesButton.OnItemSelected += args =>
             {
                 SpeciesButton.SelectId(args.Id);
-                SetSpecies(_species[args.Id].ID);
+                var selectedSpeciesId = _species[args.Id].ID;
+
+                SetSpecies(selectedSpeciesId);
                 UpdateHairPickers();
                 OnSkinColorOnValueChanged();
+
+                // Aurora: Update height/width slider limits based on species
+                var speciesProto = _prototypeManager.Index<SpeciesPrototype>(selectedSpeciesId);
+
+                HeightSlider.MinValue = speciesProto.MinHeight;
+                HeightSlider.MaxValue = speciesProto.MaxHeight;
+                WidthSlider.MinValue = speciesProto.MinWidth;
+                WidthSlider.MaxValue = speciesProto.MaxWidth;
+
+                // Aurora: Reset sliders to midpoint
+                HeightSlider.Value = (speciesProto.MinHeight + speciesProto.MaxHeight) / 2f;
+                WidthSlider.Value = (speciesProto.MinWidth + speciesProto.MaxWidth) / 2f;
             };
 
             #endregion Species
@@ -794,7 +812,18 @@ namespace Content.Client.Lobby.UI
             // Check and set the dirty flag to enable the save/reset buttons as appropriate.
             SetDirty();
         }
+        // Aurora: scale with size
+        private void UpdateSpriteViewScale()
+        {
+            if (SpriteView == null || Profile == null)
+                return;
 
+            const float baseZoom = 8f; // matches your XAML Scale="8 8"
+            var width = Profile.Appearance.Width;
+            var height = Profile.Appearance.Height;
+
+            SpriteView.Scale = new Vector2(width * baseZoom, height * baseZoom);
+        }
         // DEN - Humanoid Skin Tones
         private void UpdateSkinFurToggleVisibility()
         {
@@ -1385,27 +1414,46 @@ namespace Content.Client.Lobby.UI
 
         private void SetHeight(float newHeight)
         {
+            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+                newHeight = Math.Clamp(newHeight, species.MinHeight, species.MaxHeight);
+
             Profile = Profile?.WithCharacterAppearance(Profile.Appearance.WithHeight(newHeight));
             SetDirty();
             ReloadPreview();
+            UpdateSpriteViewScale();
         }
 
         private void ResetHeight()
         {
-            SetHeight(1.0f);
+            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            {
+                var midpoint = (species.MinHeight + species.MaxHeight) / 2f;
+                SetHeight(midpoint);
+                HeightSlider.Value = midpoint;
+            }
+
             UpdateHeightControls();
         }
 
         private void SetWidth(float newWidth)
         {
+            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+                newWidth = Math.Clamp(newWidth, species.MinWidth, species.MaxWidth);
+
             Profile = Profile?.WithCharacterAppearance(Profile.Appearance.WithWidth(newWidth));
             SetDirty();
             ReloadPreview();
-        }
+            UpdateSpriteViewScale();
+}
 
         private void ResetWidth()
         {
-            SetWidth(1.0f);
+            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            {
+                var midpoint = (species.MinWidth + species.MaxWidth) / 2f;
+                SetWidth(midpoint);
+                WidthSlider.Value = midpoint;
+            }
             UpdateWidthControls();
         }
 
