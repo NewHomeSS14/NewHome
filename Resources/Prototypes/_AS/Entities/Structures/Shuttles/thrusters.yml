@@ -76,7 +76,7 @@
 
 # Aurora Song - Small SLE Gyroscope
 - type: entity
-  id: SmallASGyroscopeSLE
+  id: ASSmallGyroscopeSLE
   parent: SmallGyroscopeSecurity
   name: small gyroscope
   suffix: SLE
@@ -101,3 +101,9 @@
       visible: false
   - type: Machine
     board: SmallGyroscopeSLEMachineCircuitboard
+
+# Legacy alias
+- type: entity
+  id: SmallASGyroscopeSLE
+  parent: ASSmallGyroscopeSLE
+
