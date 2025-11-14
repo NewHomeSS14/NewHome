@@ -1,16 +1,14 @@
 # Aurora Song - SLE EVA Locker Fills
 
 - type: entity
-  parent: LockerEvacRepair
+  parent: [ASLockerBaseSecure, LockerEvacRepair]
   id: ASLockerEVASLE
   name: SLE EVA locker
   components:
-  - type: Sprite
-    sprite: Structures/Storage/closet.rsi
-    layers:
-    - state: generic
-    - state: generic_door
-  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: sle
+    stateDoorOpen: sle_open
+    stateDoorClosed: sle_door
 
 - type: entity
   parent: ASLockerEVASLE
