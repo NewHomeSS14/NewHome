@@ -23,7 +23,7 @@
 - type: gameMap
   id: Scythe
   mapName: 'Scythe'
-  mapPath: /Maps/_NF/Shuttles/Syndicate/scythe.yml
+  mapPath: /Maps/_AS/Shuttles/Syndicate/scythe.yml
   minPlayers: 0
   stations:
     Scythe:
