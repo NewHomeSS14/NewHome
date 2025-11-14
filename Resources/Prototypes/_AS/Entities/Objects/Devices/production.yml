@@ -13,7 +13,7 @@
       Steel: 5
 
 - type: entity
-  id: ASTechFabSLECircuitboard
+  id: SLETechFabCircuitboard
   parent: SecurityTechFabCircuitboard
   name: SLE techfab machine board
   description: A machine printed circuit board for an SLE techfab.
@@ -25,6 +25,6 @@
       prototype: ASTechFabSLE
 
 - type: entity
-  id: SLETechFabCircuitboard
-  parent: ASTechFabSLECircuitboard
+  id: ASTechFabSLECircuitboard
+  parent: SLETechFabCircuitboard
   suffix: Deprecated

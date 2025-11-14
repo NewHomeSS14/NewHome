@@ -21,9 +21,6 @@
   id: ASClothingHeadHatSLECampaignFilled
   suffix: Filled
   components:
-  - type: ContainerFill
-    containers:
-      storagebase: []
   - type: Storage
     maxItemSize: Small
     grid:
@@ -31,3 +28,5 @@
     whitelist:
       tags:
       - Flashlight
+  - type: StorageFill
+    contents: []

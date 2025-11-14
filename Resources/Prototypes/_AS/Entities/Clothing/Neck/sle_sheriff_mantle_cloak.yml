@@ -24,6 +24,3 @@
     sprite: _AS/Clothing/Neck/Cloaks/slesheriff.rsi
   - type: Clothing
     sprite: _AS/Clothing/Neck/Cloaks/slesheriff.rsi
-  - type: StorageFill
-    contents:
-    - id: ASRubberStampSheriff
