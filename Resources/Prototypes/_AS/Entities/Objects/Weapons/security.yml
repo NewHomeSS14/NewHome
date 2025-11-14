@@ -10,3 +10,9 @@
   components:
   - type: ItemToggle
     activated: true
+
+# SLE Deployable Barrier (alias for backwards compatibility)
+- type: entity
+  id: ASSLEDeployableBarrier
+  parent: DeployableBarrier
+  suffix: SLE, Deprecated

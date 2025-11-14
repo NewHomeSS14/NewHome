@@ -1,0 +1,33 @@
+# Aurora Song - SLE Suit Storage Units
+
+#Combat hardsuit storage
+- type: entity
+  id: ASSuitStorageSLECombat
+  parent: SuitStorageBase
+  suffix: SLE Combat
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: ClothingOuterHardsuitSleCombat
+        - id: ClothingMaskGasNfsd
+        - id: ASJetpackSLEFilled
+        - id: ASClothingShoesBootsMagSLEFilled
+  - type: AccessReader
+    access: [["Security"]]
+
+#Command hardsuit storage (uses combat hardsuit until command hardsuit is created)
+- type: entity
+  id: ASSuitStorageSLECommand
+  parent: SuitStorageBase
+  suffix: SLE Command
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: ClothingOuterHardsuitSleCombat
+        - id: ClothingMaskGasNfsd
+        - id: ASJetpackSLEFilled
+        - id: ASClothingShoesBootsMagSLEFilled
+  - type: AccessReader
+    access: [["Security"]]
