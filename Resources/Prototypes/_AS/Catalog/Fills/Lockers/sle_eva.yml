@@ -7,8 +7,8 @@
   components:
   - type: Appearance
   - type: EntityStorageVisuals
-    stateDoorOpen: nfsd_open
-    stateDoorClosed: nfsd_door
+    stateDoorOpen: sle_open
+    stateDoorClosed: sle_door
 
 - type: entity
   parent: ASLockerEVASLE

@@ -6,6 +6,16 @@
   parent: SuitStorageBase
   suffix: SLE Combat
   components:
+  - type: Storage
+    grid:
+    - 0,0,5,3
+    whitelist:
+      tags:
+      - ClothingOuterHardsuit
+      - ClothingMask
+      - GasTank
+      - Jetpack
+      - ClothingShoesMag
   - type: StorageFill
     contents:
         - id: NFTankO2N2EqualFilled
@@ -22,6 +32,16 @@
   parent: SuitStorageBase
   suffix: SLE Command
   components:
+  - type: Storage
+    grid:
+    - 0,0,5,3
+    whitelist:
+      tags:
+      - ClothingOuterHardsuit
+      - ClothingMask
+      - GasTank
+      - Jetpack
+      - ClothingShoesMag
   - type: StorageFill
     contents:
         - id: NFTankO2N2EqualFilled
