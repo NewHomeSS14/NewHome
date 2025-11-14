@@ -11,7 +11,6 @@
     color: "#4a6fa5"  # SLE blue
   - type: Clothing
     sprite: _NF/Clothing/Neck/Bedsheets/Nfsd/nfsd.rsi
-    color: "#4a6fa5"  # SLE blue
 
 - type: entity
   id: ASBedsheetSLEBrigmedic
@@ -24,7 +23,6 @@
     color: "#5a8fc5"  # SLE light blue
   - type: Clothing
     sprite: _NF/Clothing/Neck/Bedsheets/Nfsd/nfsd_brigmed.rsi
-    color: "#5a8fc5"  # SLE light blue
 
 - type: entity
   id: ASBedsheetSLESheriff
@@ -37,4 +35,3 @@
     color: "#2a4a7c"  # SLE dark blue
   - type: Clothing
     sprite: _NF/Clothing/Neck/Bedsheets/Nfsd/nfsd_sheriff.rsi
-    color: "#2a4a7c"  # SLE dark blue

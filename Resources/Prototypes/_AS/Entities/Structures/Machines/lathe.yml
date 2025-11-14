@@ -28,7 +28,9 @@
     - NfsdPracticeStatic
     - NfsdAmmoStatic
     - ReportingStatic
-    dynamicRecipes:
+    - SLETechFabDynamic
+    # dynamicRecipes was removed - using static pack instead
+    # Original dynamic recipes:
     - ClothingHeadHelmetBasic
     - ClothingEyesGlassesSecurity
     - ClothingBeltUtility

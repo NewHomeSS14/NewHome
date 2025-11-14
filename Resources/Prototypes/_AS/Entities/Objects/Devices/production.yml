@@ -27,4 +27,4 @@
 - type: entity
   id: SLETechFabCircuitboard
   parent: ASTechFabSLECircuitboard
-  deprecated: true
+  suffix: Deprecated

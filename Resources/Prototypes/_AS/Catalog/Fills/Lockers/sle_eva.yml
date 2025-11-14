@@ -9,8 +9,6 @@
   - type: EntityStorageVisuals
     stateDoorOpen: nfsd_open
     stateDoorClosed: nfsd_door
-    stateBodyOpen: nfsd_open
-    stateBodyClosed: nfsd
 
 - type: entity
   parent: ASLockerEVASLE

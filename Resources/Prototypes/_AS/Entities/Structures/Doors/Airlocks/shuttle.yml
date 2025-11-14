@@ -10,7 +10,7 @@
     sprite: _AS/Structures/Doors/Airlocks/Standard/docksle.rsi
     state: closed
   - type: Construction
-    graph: AirlockShuttleSLE
+    graph: AirlockShuttle
     node: assembly
 
 - type: entity
