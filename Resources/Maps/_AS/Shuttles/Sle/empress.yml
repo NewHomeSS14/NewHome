@@ -11725,7 +11725,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -20.5,5.5
       parent: 1
-- proto: ASSLETechFab
+- proto: ASTechFabSLE
   entities:
   - uid: 729
     components:

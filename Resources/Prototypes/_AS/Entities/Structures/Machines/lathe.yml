@@ -29,8 +29,3 @@
     - NfsdAmmoStatic
     - ReportingStatic
     # Inherits SecurityEquipmentStatic and SecurityWeaponsStatic from SecurityTechFab parent
-
-- type: entity
-  id: ASSLETechFab
-  parent: ASTechFabSLE
-  suffix: Deprecated

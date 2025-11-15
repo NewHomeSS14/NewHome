@@ -8352,7 +8352,7 @@ entities:
     - type: Transform
       pos: 0.5,14.5
       parent: 1
-- proto: ASSLETechFab
+- proto: ASTechFabSLE
   entities:
   - uid: 1215
     components:

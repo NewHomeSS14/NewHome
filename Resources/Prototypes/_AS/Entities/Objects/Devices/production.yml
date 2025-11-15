@@ -23,8 +23,3 @@
       state: sle
     - type: MachineBoard
       prototype: ASTechFabSLE
-
-- type: entity
-  id: SLETechFabCircuitboard
-  parent: ASTechFabSLECircuitboard
-  suffix: Deprecated
