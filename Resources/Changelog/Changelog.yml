@@ -4864,3 +4864,25 @@ Entries:
   id: 8834
   time: '2025-11-11T01:51:37.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/589
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: 'Extended the docks on the Nyx POI for easier docking. '
+    - type: Tweak
+      message: Gave the Nyx POI a new coat of (floor) paint
+  id: 8835
+  time: '2025-11-11T21:08:16.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/591
+- author: Vandanna
+  changes:
+    - type: Add
+      message: New objective system
+    - type: Add
+      message: Medic bounty system
+    - type: Fix
+      message: NF -> AS refactors
+    - type: Add
+      message: Bonus dispensation system
+  id: 8836
+  time: '2025-11-15T00:39:28.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/593
