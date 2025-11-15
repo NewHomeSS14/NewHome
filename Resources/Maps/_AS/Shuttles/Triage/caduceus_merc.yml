@@ -3722,13 +3722,6 @@ entities:
     - type: Transform
       pos: 3.5,-9.5
       parent: 1
-- proto: ChemistryHotplate
-  entities:
-  - uid: 547
-    components:
-    - type: Transform
-      pos: 4.5,-10.5
-      parent: 1
 - proto: ChemMaster
   entities:
   - uid: 546
@@ -8158,13 +8151,6 @@ entities:
     components:
     - type: Transform
       pos: -6.5,9.5
-      parent: 1
-- proto: VendingMachineTankDispenserEVA
-  entities:
-  - uid: 804
-    components:
-    - type: Transform
-      pos: -5.5,-16.5
       parent: 1
 - proto: WallShuttle
   entities:

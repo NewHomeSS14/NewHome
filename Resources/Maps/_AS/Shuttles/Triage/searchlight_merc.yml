@@ -1336,13 +1336,6 @@ entities:
     - type: Transform
       pos: 2.5,-7.5
       parent: 1
-- proto: ChemistryHotplate
-  entities:
-  - uid: 250
-    components:
-    - type: Transform
-      pos: 3.5,-10.5
-      parent: 1
 - proto: ChemMaster
   entities:
   - uid: 368
@@ -2054,13 +2047,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 4.5,-8.5
-      parent: 1
-- proto: KitchenReagentGrinder
-  entities:
-  - uid: 248
-    components:
-    - type: Transform
-      pos: 2.5,-9.5
       parent: 1
 - proto: LockerWallColorChemistryFilled
   entities:

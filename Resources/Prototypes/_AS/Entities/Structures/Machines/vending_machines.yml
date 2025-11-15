@@ -121,6 +121,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Physics
     bodyType: Static
+    canCollide: true
   - type: Fixtures
     fixtures:
       fix1:
@@ -132,6 +133,7 @@
         layer:
         - MachineLayer
         density: 200
+        hard: true
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -141,6 +143,7 @@
       enum.StoreUiKey.Key:
         type: StoreBoundUserInterface
   - type: ActivatableUI
+    singleUser: true
     key: enum.StoreUiKey.Key
   - type: Tag
     tags:

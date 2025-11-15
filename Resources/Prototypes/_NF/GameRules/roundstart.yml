@@ -21,14 +21,17 @@
   id: MajorBluespaceEventsTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
-    - id: BluespaceCacheError
+#    - id: BluespaceCacheError # Aurora
     - id: BluespaceCave
-    - id: BluespaceVaultError
-    - id: BluespaceVaultSmallError
+#    - id: BluespaceVaultError # Aurora
+#    - id: BluespaceVaultSmallError # Aurora
     - id: BluespaceSyndicateFTLInterception
     - id: BluespaceWizardFederationScout
     - id: BluespaceBloodMoon
     - id: BluespaceMercenaryFTLCrash # Aurora
+    - id: ASBluespaceTriageEvent # Aurora Song - Ambulances spawn full of patients needing healing
+    - id: ASBluespacePrisonRiot  # Aurora Song - Capture mission: Quell prison riot (cuff and secure prisoners aboard)
+    - id: ASBluespaceSmugglerInterception  # Aurora Song - Confiscation mission: Smuggler ship interception (eliminate crew, remove contraband)
 
 - type: entity
   id: BluespaceDungeonEventScheduler

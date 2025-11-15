@@ -53,7 +53,7 @@
     A premium semi-automatic shotgun, featuring an upgraded tube capacity.
   components:
   - type: BallisticAmmoProvider
-    capacity: 7
+    capacity: 7 # Aurora - Increased for taste
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Clothing
@@ -218,4 +218,4 @@
   components:
   - type: BallisticAmmoProvider
     proto: NFShellShotgunBeanbag
-    capacity: 5
+    capacity: 7 # Aurora - Increased for taste

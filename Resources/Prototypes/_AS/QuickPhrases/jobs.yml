@@ -1,57 +1,113 @@
-# Aurora Song: Job-related quick phrases for AAC Tablet
-# Only includes Aurora Song-specific jobs not in DeltaV
-# Uses DeltaV's existing base types (BaseCommandJobPhrase, etc.)
-
-# Aurora Song: Police department base type
-- type: quickPhrase
-  parent: [ BasePolicePhrase, BaseJobPhrase ]
-  abstract: true
-  id: BasePoliceJobPhrase
-
-# Command
+# Aurora Song: AAC Tablet QuickPhrase prototypes for jobs
 
 - type: quickPhrase
-  parent: BaseCommandJobPhrase
-  id: StationRepresentativePhrase
-  text: job-name-station-representative
-
-# Police
+  id: JobDirectorOfCare
+  text: job-name-director-of-care
+  tab: Jobs
+  group: Command
+  styleClass: ButtonColorBlue
 
 - type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: CommissionerPhrase
+  id: JobDoC
+  text: job-name-doc-short
+  tab: Jobs
+  group: Command
+  styleClass: ButtonColorBlue
+
+- type: quickPhrase
+  id: JobStationTrafficController
+  text: job-name-station-traffic-controller
+  tab: Jobs
+  group: Logistics
+  styleClass: ButtonColorYellow
+
+- type: quickPhrase
+  id: JobSTC
+  text: job-name-stc-short
+  tab: Jobs
+  group: Logistics
+  styleClass: ButtonColorYellow
+
+- type: quickPhrase
+  id: JobPlantTechnician
+  text: job-name-plant-technician  # Uses NF locale
+  tab: Jobs
+  group: Engineering
+  styleClass: ButtonColorOrange
+
+- type: quickPhrase
+  id: JobPlantManager
+  text: job-name-plant-manager  # Uses NF locale
+  tab: Jobs
+  group: Engineering
+  styleClass: ButtonColorOrange
+
+- type: quickPhrase
+  id: JobPPM
+  text: job-name-ppm-short
+  tab: Jobs
+  group: Engineering
+  styleClass: ButtonColorOrange
+
+- type: quickPhrase
+  id: JobCommissioner
   text: job-name-commissioner
+  tab: Jobs
+  group: Command
+  styleClass: ButtonColorBlue
 
 - type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: LieutenantPhrase
-  text: job-name-lieutenant
-
-- type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: SergeantPhrase
-  text: job-name-sergeant
-
-- type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: SLEOfficerPhrase
-  text: job-name-sle-officer
-
-- type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: ASLeoPhraseOfficer
-  text: job-name-officer
-
-# Medical
-
-- type: quickPhrase
-  parent: BaseMedicalJobPhrase
-  id: MedicPhrase
+  id: JobMedic
   text: job-name-medic
-
-# Logistics
+  tab: Jobs
+  group: Medical
+  styleClass: ButtonColorCyan
 
 - type: quickPhrase
-  parent: BaseLogisticsJobPhrase
-  id: MailPersonPhrase
+  id: JobLieutenant
+  text: job-name-lieutenant
+  tab: Jobs
+  group: Security
+  styleClass: ButtonColorRed
+
+- type: quickPhrase
+  id: JobSergeant
+  text: job-name-sergeant
+  tab: Jobs
+  group: Security
+  styleClass: ButtonColorRed
+
+- type: quickPhrase
+  id: JobSLEOfficer
+  text: job-name-sle-officer
+  tab: Jobs
+  group: Security
+  styleClass: ButtonColorRed
+
+- type: quickPhrase
+  id: JobOfficer
+  text: job-name-officer
+  tab: Jobs
+  group: Security
+  styleClass: ButtonColorRed
+
+- type: quickPhrase
+  id: JobServiceWorker
+  text: job-name-service-worker
+  tab: Jobs
+  group: Service
+  styleClass: ButtonColorGreen
+
+- type: quickPhrase
+  id: JobMailPerson
   text: job-name-mail-person
+  tab: Jobs
+  group: Logistics
+  styleClass: ButtonColorYellow
+
+- type: quickPhrase
+  id: JobStationRepresentative
+  text: job-name-station-representative
+  tab: Jobs
+  group: Command
+  styleClass: ButtonColorBlue
