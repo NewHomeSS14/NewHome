@@ -1,113 +1,76 @@
 # Aurora Song: AAC Tablet QuickPhrase prototypes for jobs
 
 - type: quickPhrase
+  parent: BaseCommandJobPhrase
   id: JobDirectorOfCare
   text: job-name-director-of-care
-  tab: Jobs
-  group: Command
-  styleClass: ButtonColorBlue
 
 - type: quickPhrase
+  parent: BaseCommandJobPhrase
   id: JobDoC
   text: job-name-doc-short
-  tab: Jobs
-  group: Command
-  styleClass: ButtonColorBlue
 
 - type: quickPhrase
+  parent: BaseLogisticsJobPhrase
   id: JobStationTrafficController
   text: job-name-station-traffic-controller
-  tab: Jobs
-  group: Logistics
-  styleClass: ButtonColorYellow
 
 - type: quickPhrase
+  parent: BaseLogisticsJobPhrase
   id: JobSTC
   text: job-name-stc-short
-  tab: Jobs
-  group: Logistics
-  styleClass: ButtonColorYellow
 
 - type: quickPhrase
+  parent: BaseEngineeringJobPhrase
   id: JobPlantTechnician
   text: job-name-plant-technician  # Uses NF locale
-  tab: Jobs
-  group: Engineering
-  styleClass: ButtonColorOrange
 
 - type: quickPhrase
+  parent: BaseEngineeringJobPhrase
   id: JobPlantManager
   text: job-name-plant-manager  # Uses NF locale
-  tab: Jobs
-  group: Engineering
-  styleClass: ButtonColorOrange
 
 - type: quickPhrase
+  parent: BaseEngineeringJobPhrase
   id: JobPPM
   text: job-name-ppm-short
-  tab: Jobs
-  group: Engineering
-  styleClass: ButtonColorOrange
 
 - type: quickPhrase
+  parent: BaseCommandJobPhrase
   id: JobCommissioner
   text: job-name-commissioner
-  tab: Jobs
-  group: Command
-  styleClass: ButtonColorBlue
 
 - type: quickPhrase
+  parent: BaseMedicalJobPhrase
   id: JobMedic
   text: job-name-medic
-  tab: Jobs
-  group: Medical
-  styleClass: ButtonColorCyan
 
 - type: quickPhrase
+  parent: BaseSecurityJobPhrase
   id: JobLieutenant
   text: job-name-lieutenant
-  tab: Jobs
-  group: Security
-  styleClass: ButtonColorRed
 
 - type: quickPhrase
+  parent: BaseSecurityJobPhrase
   id: JobSergeant
   text: job-name-sergeant
-  tab: Jobs
-  group: Security
-  styleClass: ButtonColorRed
 
 - type: quickPhrase
+  parent: BaseSecurityJobPhrase
   id: JobSLEOfficer
   text: job-name-sle-officer
-  tab: Jobs
-  group: Security
-  styleClass: ButtonColorRed
 
 - type: quickPhrase
+  parent: BaseSecurityJobPhrase
   id: JobOfficer
   text: job-name-officer
-  tab: Jobs
-  group: Security
-  styleClass: ButtonColorRed
 
 - type: quickPhrase
-  id: JobServiceWorker
-  text: job-name-service-worker
-  tab: Jobs
-  group: Service
-  styleClass: ButtonColorGreen
-
-- type: quickPhrase
+  parent: BaseLogisticsJobPhrase
   id: JobMailPerson
   text: job-name-mail-person
-  tab: Jobs
-  group: Logistics
-  styleClass: ButtonColorYellow
 
 - type: quickPhrase
+  parent: BaseCommandJobPhrase
   id: JobStationRepresentative
   text: job-name-station-representative
-  tab: Jobs
-  group: Command
-  styleClass: ButtonColorBlue
