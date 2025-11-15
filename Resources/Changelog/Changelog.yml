@@ -4909,3 +4909,12 @@ Entries:
   id: 8837
   time: '2025-11-15T18:05:27.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/595
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: job loc strings
+    - type: Fix
+      message: aac button colors
+  id: 8838
+  time: '2025-11-15T19:48:59.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/596
