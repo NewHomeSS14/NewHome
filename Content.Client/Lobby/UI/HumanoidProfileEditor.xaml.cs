@@ -1413,11 +1413,11 @@ namespace Content.Client.Lobby.UI
 // Aurora: Sliders
         private void SetHeight(float newHeight)
         {
-            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            if (Profile != null &&
+                _prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            {
                 newHeight = Math.Clamp(newHeight, species.MinHeight, species.MaxHeight);
 
-            if (Profile != null)
-            {
                 var appearance = Profile.Appearance.WithHeight(newHeight);
                 Profile = Profile.WithCharacterAppearance(appearance);
             }
@@ -1429,10 +1429,12 @@ namespace Content.Client.Lobby.UI
 
         private void ResetHeight()
         {
-            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            if (Profile != null &&
+                _prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
             {
                 var midpoint = (species.MinHeight + species.MaxHeight) / 2f;
                 SetHeight(midpoint);
+
                 if (HeightSlider != null)
                     HeightSlider.Value = midpoint;
             }
@@ -1442,11 +1444,11 @@ namespace Content.Client.Lobby.UI
 
         private void SetWidth(float newWidth)
         {
-            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            if (Profile != null &&
+                _prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            {
                 newWidth = Math.Clamp(newWidth, species.MinWidth, species.MaxWidth);
 
-            if (Profile != null)
-            {
                 var appearance = Profile.Appearance.WithWidth(newWidth);
                 Profile = Profile.WithCharacterAppearance(appearance);
             }
@@ -1458,16 +1460,18 @@ namespace Content.Client.Lobby.UI
 
         private void ResetWidth()
         {
-            if (_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
+            if (Profile != null &&
+                _prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var species))
             {
                 var midpoint = (species.MinWidth + species.MaxWidth) / 2f;
                 SetWidth(midpoint);
+
                 if (WidthSlider != null)
                     WidthSlider.Value = midpoint;
             }
 
             UpdateWidthControls();
-        }
+
 
 // Aurora: Sliders end
         public bool IsDirty

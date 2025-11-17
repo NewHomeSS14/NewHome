@@ -27,8 +27,6 @@
         - MobLayer
   - type: Body
     prototype: Fairy
-  - type: Damageable
-    damageModifierSet: Fairy
   - type: Speech
     speechSounds: Alto
   - type: SlowOnDamage
