@@ -55,7 +55,6 @@ namespace Content.Client.Lobby.UI
         private readonly JobRequirementsManager _requirements;
         private readonly LobbyUIController _controller;
         private readonly SpriteSystem _sprite;  // Aurora
-        private readonly IEntityManager _entityManager; // Aurora
 
         // CCvar.
         private int _maxNameLength;
