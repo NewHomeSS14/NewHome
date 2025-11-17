@@ -25,6 +25,7 @@
     tags:
       - Meat
 
+
 - type: entity
   id: OrganFairyStomach
   parent: OrganAnimalStomach
@@ -53,9 +54,9 @@
       updateInterval: 1.5
       groups:
         - id: Food
-          MetabolismRateModifier: 0.1
+          rateModifier: 0.1
         - id: Drink
-          MetabolismRateModifier: 0.1
+          rateModifier: 0.1
 
 
 - type: entity
@@ -107,7 +108,7 @@
   - type: Metabolizer
     updateInterval: 1.5
     maxReagents: 2
-    metabolizerTypes: [Fairy]
+    metabolizerTypes: [ Fairy ]
     groups:
     - id: Medicine
     - id: Cryogenic # Frontier

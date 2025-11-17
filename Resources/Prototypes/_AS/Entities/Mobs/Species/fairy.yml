@@ -72,7 +72,6 @@
       - Mouse
   - type: AlwaysTriggerMousetrap
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
-    PickupDuration: 1
   - type: Butcherable
     spawned:
     - id: FoodMeatHuman
@@ -97,7 +96,6 @@
   name: Urist McFairy
   parent: MobHumanDummy
   id: MobFairyDummy
-  noSpawn: true
   categories: [ HideSpawnMenu ]
   description: A dummy fairy meant to be used in character setup.
   components:

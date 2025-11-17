@@ -93,7 +93,7 @@
         - !type:OrganType
           type: Fairy
           shouldHave: true
-        amount: 1 #Aurora end
+        amount: 0.4 #Aurora end
   plantMetabolism:
   - !type:PlantAdjustNutrition
     amount: 0.1
