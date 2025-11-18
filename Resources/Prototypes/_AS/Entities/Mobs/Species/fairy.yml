@@ -16,6 +16,7 @@
     speechVerb: Fairy
   - type: HumanoidAppearance
     species: Fairy
+  - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
         shape:
