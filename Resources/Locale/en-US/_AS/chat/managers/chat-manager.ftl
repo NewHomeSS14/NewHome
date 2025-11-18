@@ -1,3 +1,5 @@
+chat-speech-verb-name-fairy = Fairy
+
 chat-speech-verb-fairy-1 = shimmers
 chat-speech-verb-fairy-2 = sparkles
 chat-speech-verb-fairy-3 = glitters
