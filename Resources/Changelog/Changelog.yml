@@ -5042,3 +5042,12 @@ Entries:
   id: 8852
   time: '2025-11-19T05:35:09.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/590
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Medic Rig to Medic loadouts
+    - type: Tweak
+      message: DoC's Falchion's paint
+  id: 8853
+  time: '2025-11-19T06:14:57.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/607
