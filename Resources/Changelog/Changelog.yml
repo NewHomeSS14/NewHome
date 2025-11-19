@@ -5012,3 +5012,10 @@ Entries:
   id: 8848
   time: '2025-11-19T02:53:58.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/588
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Buffed .25
+  id: 8849
+  time: '2025-11-19T02:54:08.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/602
