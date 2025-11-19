@@ -5026,3 +5026,10 @@ Entries:
   id: 8850
   time: '2025-11-19T03:14:38.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/606
+- author: AssignedGod
+  changes:
+    - type: Add
+      message: Added the Estoc from wizden!
+  id: 8851
+  time: '2025-11-19T04:33:48.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/601
