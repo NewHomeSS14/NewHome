@@ -1,4 +1,14 @@
 - type: loadoutGroup
+  id: MedicHead
+  name: loadout-group-medic-head
+  minLimit: 0
+  loadouts:
+  - MedicalHeadBeretMedicBase
+  - MedicalHeadBeretMedicAS
+  subgroups:
+  - ContractorHead
+
+- type: loadoutGroup
   id: MedicalJumpsuit
   name: loadout-group-medic-jumpsuit
   loadouts:
