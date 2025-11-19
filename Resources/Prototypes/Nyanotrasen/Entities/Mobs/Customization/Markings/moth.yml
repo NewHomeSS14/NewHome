@@ -335,11 +335,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: aspen
@@ -349,11 +350,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: atlas
@@ -363,11 +365,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: brown
@@ -377,11 +380,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: deathshead
@@ -391,11 +395,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: feathery
@@ -405,11 +410,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: firewatch
@@ -419,11 +425,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: gothic
@@ -433,11 +440,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: jungle
@@ -447,11 +455,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: lovers
@@ -461,11 +470,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: luna
@@ -475,11 +485,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: mint
@@ -489,11 +500,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: moffra
@@ -503,11 +515,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: monarch
@@ -517,11 +530,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: moonfly
@@ -531,11 +545,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: oakworm
@@ -545,11 +560,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: plain
@@ -559,11 +575,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: plasmafire
@@ -573,11 +590,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: poison
@@ -587,11 +605,12 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
     state: ragged
@@ -601,13 +620,91 @@
   bodyPart: Tail
   markingCategory: Tail
   forcedColoring: true
-  speciesRestriction: [Moth, Fairy] #Aurora
+  speciesRestriction: [Moth, Fairy]
   coloring:
     default:
-      type: !type:SimpleColoring
-        color: "#FFFFFF"
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/Moth/moth
+  - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
+    state: reddish
+
+- type: marking
+  id: MothWingsClassicRosy
+  bodyPart: Tail
+  markingCategory: Tail
+  forcedColoring: true
+  speciesRestriction: [Moth, Fairy]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
+    state: rosy
+
+- type: marking
+  id: MothWingsClassicRoyal
+  bodyPart: Tail
+  markingCategory: Tail
+  forcedColoring: true
+  speciesRestriction: [Moth, Fairy]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
+    state: royal
+
+- type: marking
+  id: MothWingsClassicSnow
+  bodyPart: Tail
+  markingCategory: Tail
+  forcedColoring: true
+  speciesRestriction: [Moth, Fairy]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
+    state: snow
+
+- type: marking
+  id: MothWingsClassicWhitefly
+  bodyPart: Tail
+  markingCategory: Tail
+  forcedColoring: true
+  speciesRestriction: [Moth, Fairy]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
+    state: whitefly
+
+- type: marking
+  id: MothWingsClassicWitchking
+  bodyPart: Tail
+  markingCategory: Tail
+  forcedColoring: true
+  speciesRestriction: [Moth, Fairy]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/Moth/moth_wings.rsi
+    state: witchking
+
 
 # Body Markings
 # Deathshead
