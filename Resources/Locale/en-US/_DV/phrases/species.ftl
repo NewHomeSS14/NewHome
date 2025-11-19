@@ -42,3 +42,5 @@ phrase-species-insect = insect
 phrase-species-pet = pet
 phrase-species-chicken = chicken
 phrase-species-fish = fish
+phrase-species-goblin = goblin
+phrase-species-sheleg = sheleg

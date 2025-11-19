@@ -1,57 +1,76 @@
-# Aurora Song: Job-related quick phrases for AAC Tablet
-# Only includes Aurora Song-specific jobs not in DeltaV
-# Uses DeltaV's existing base types (BaseCommandJobPhrase, etc.)
-
-# Aurora Song: Police department base type
-- type: quickPhrase
-  parent: [ BasePolicePhrase, BaseJobPhrase ]
-  abstract: true
-  id: BasePoliceJobPhrase
-
-# Command
+# Aurora Song: AAC Tablet QuickPhrase prototypes for jobs
 
 - type: quickPhrase
   parent: BaseCommandJobPhrase
-  id: StationRepresentativePhrase
-  text: job-name-station-representative
-
-# Police
+  id: JobDirectorOfCare
+  text: job-name-director-of-care
 
 - type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: CommissionerPhrase
-  text: job-name-commissioner
-
-- type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: LieutenantPhrase
-  text: job-name-lieutenant
-
-- type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: SergeantPhrase
-  text: job-name-sergeant
-
-- type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: SLEOfficerPhrase
-  text: job-name-sle-officer
-
-- type: quickPhrase
-  parent: BasePoliceJobPhrase
-  id: ASLeoPhraseOfficer
-  text: job-name-officer
-
-# Medical
-
-- type: quickPhrase
-  parent: BaseMedicalJobPhrase
-  id: MedicPhrase
-  text: job-name-medic
-
-# Logistics
+  parent: BaseCommandJobPhrase
+  id: JobDoC
+  text: job-name-doc-short
 
 - type: quickPhrase
   parent: BaseLogisticsJobPhrase
-  id: MailPersonPhrase
+  id: JobStationTrafficController
+  text: job-name-station-traffic-controller
+
+- type: quickPhrase
+  parent: BaseLogisticsJobPhrase
+  id: JobSTC
+  text: job-name-stc-short
+
+- type: quickPhrase
+  parent: BaseEngineeringJobPhrase
+  id: JobPlantTechnician
+  text: job-name-plant-technician  # Uses NF locale
+
+- type: quickPhrase
+  parent: BaseEngineeringJobPhrase
+  id: JobPlantManager
+  text: job-name-plant-manager  # Uses NF locale
+
+- type: quickPhrase
+  parent: BaseEngineeringJobPhrase
+  id: JobPPM
+  text: job-name-ppm-short
+
+- type: quickPhrase
+  parent: BaseCommandJobPhrase
+  id: JobCommissioner
+  text: job-name-commissioner
+
+- type: quickPhrase
+  parent: BaseMedicalJobPhrase
+  id: JobMedic
+  text: job-name-medic
+
+- type: quickPhrase
+  parent: BaseSecurityJobPhrase
+  id: JobLieutenant
+  text: job-name-lieutenant
+
+- type: quickPhrase
+  parent: BaseSecurityJobPhrase
+  id: JobSergeant
+  text: job-name-sergeant
+
+- type: quickPhrase
+  parent: BaseSecurityJobPhrase
+  id: JobSLEOfficer
+  text: job-name-sle-officer
+
+- type: quickPhrase
+  parent: BaseSecurityJobPhrase
+  id: JobOfficer
+  text: job-name-officer
+
+- type: quickPhrase
+  parent: BaseLogisticsJobPhrase
+  id: JobMailPerson
   text: job-name-mail-person
+
+- type: quickPhrase
+  parent: BaseCommandJobPhrase
+  id: JobStationRepresentative
+  text: job-name-station-representative

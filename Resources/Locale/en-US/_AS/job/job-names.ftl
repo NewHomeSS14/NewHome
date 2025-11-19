@@ -1,6 +1,3 @@
-job-name-medical = Medic
-job-name-service = Service Worker
-
 # Aurora Song: AAC Tablet job quick phrases (Aurora Song specific only)
 job-name-station-representative = Station Representative
 job-name-commissioner = Commissioner
@@ -11,3 +8,10 @@ job-name-sle-officer = SLE Officer
 job-name-officer = Officer
 job-name-service-worker = Service Worker
 job-name-mail-person = Mail Person
+job-name-director-of-care = Director of Care
+job-name-station-traffic-controller = Station Traffic Controller
+
+# Aurora Song: Shortened variants for AAC Tablet (won't conflict with NF)
+job-name-doc-short = DoC
+job-name-stc-short = STC
+job-name-ppm-short = PPM
