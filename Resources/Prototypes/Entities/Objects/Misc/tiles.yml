@@ -1584,7 +1584,7 @@
     - Plating
     - FloorAstroAsteroidSandBorderless
   - type: Stack
-    stackType: FloorTileAstroAsteroidSand
+    stackType: FloorTileAstroAsteroidSandBorderless
 
 - type: entity
   name: large wood floor
