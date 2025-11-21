@@ -367,6 +367,7 @@
   - type: Vocalizer
   - type: DatasetVocalizer
     dataset: MedibotAds
+    hideChat: true
   - type: Inventory
     templateId: medibot
   - type: DoAfter
