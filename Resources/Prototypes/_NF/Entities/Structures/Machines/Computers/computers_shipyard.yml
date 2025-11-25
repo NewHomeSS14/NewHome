@@ -349,10 +349,10 @@
   description: Used to buy brass ships.
   components:
   - type: ActivatableUI
-    key: enum.ShipyardConsoleUiKey.Expedition
+    key: enum.ShipyardConsoleUiKey.Brass
   - type: UserInterface
     interfaces:
-      enum.ShipyardConsoleUiKey.Expedition:
+      enum.ShipyardConsoleUiKey.Brass:
         type: ShipyardConsoleBoundUserInterface
   - type: Sprite
     sprite: _NF/Structures/Machines/computers.rsi
@@ -365,11 +365,3 @@
       state: shipyard
     - map: ["computerLayerKeys"]
       state: telesci_key
-  - type: ShipyardListing
-    shuttles:
-    - Bonsai
-    - Campfire
-    - Mule
-    - Scorpion
-    - Construct
-    - Heartbeat
