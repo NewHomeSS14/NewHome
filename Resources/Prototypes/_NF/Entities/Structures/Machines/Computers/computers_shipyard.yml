@@ -309,7 +309,7 @@
   - type: ShipyardListing
     shuttles:
     - MercyOfFreefall
-
+#NewHome start
 - type: entity
   id: ComputerShipyardBlueHorizons
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyard]
@@ -365,3 +365,4 @@
       state: shipyard
     - map: ["computerLayerKeys"]
       state: telesci_key
+#NewHome end
