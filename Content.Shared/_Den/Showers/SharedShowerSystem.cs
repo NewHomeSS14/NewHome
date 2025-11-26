@@ -5,7 +5,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 
-namespace Content.Shared.Showers
+namespace Content.Shared._Den.Showers
 {
     public abstract class SharedShowerSystem : EntitySystem
     {
