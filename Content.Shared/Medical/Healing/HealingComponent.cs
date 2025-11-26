@@ -49,7 +49,7 @@ public sealed partial class HealingComponent : Component
     /// Delay multiplier when healing yourself.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public float SelfHealPenaltyMultiplier = 3f;
+    public float SelfHealPenaltyMultiplier = 1.5f;
 
     /// <summary>
     /// Sound played on healing begin.
