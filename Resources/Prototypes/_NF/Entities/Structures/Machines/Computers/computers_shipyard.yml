@@ -309,7 +309,7 @@
   - type: ShipyardListing
     shuttles:
     - MercyOfFreefall
-
+#NewHome start
 - type: entity
   id: ComputerShipyardBlueHorizons
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyard]
@@ -341,3 +341,28 @@
     - Scorpion
     - Construct
     - Heartbeat
+
+- type: entity
+  id: ComputerShipyardBrass
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyard]
+  name: brass shipyard console
+  description: Used to buy brass ships.
+  components:
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Brass
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Brass:
+        type: ShipyardConsoleBoundUserInterface
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer_scrap
+    - map: ["computerLayerKeyboard"]
+      state: scrap_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+#NewHome end
