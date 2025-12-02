@@ -1,0 +1,43 @@
+# Author Info
+# GitHub: Zenixic
+# Discord: zenixic
+
+# Maintainer Info
+# GitHub: Zenixic
+# Discord: zenixic
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Cog
+  parent: BaseVessel
+  name: Cog
+  description: A cog shaped engineering vessel.
+  price: 30000
+  category: Small
+  group: Brass
+  shuttlePath: /Maps/_NewHome/Shuttles/Brass/cog.yml
+  guidebookPage: Null
+  class:
+  - Engineering
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Cog
+  mapName: 'BH Cog'
+  mapPath: /Maps/_NewHome/Shuttles/Brass/cog.yml
+  minPlayers: 0
+  stations:
+    Cog:
+      stationProto: StandardFrontierVessel
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: 'Cog {1}'
+        nameGenerator: !type:NanotrasenNameGenerator
+          prefixCreator: '14'
+      - type: StationJobs
+        availableJobs:
+          ContractorInterview: [ 0, 0 ]
+          PilotInterview: [ 0, 0 ]
+          MercenaryInterview: [ 0, 0 ]
