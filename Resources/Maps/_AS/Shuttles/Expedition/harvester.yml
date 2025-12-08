@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.4.0
   forkId: ""
   forkVersion: ""
-  time: 12/08/2025 21:51:45
-  entityCount: 770
+  time: 12/08/2025 22:10:26
+  entityCount: 771
 maps: []
 grids:
 - 1
@@ -466,7 +466,7 @@ entities:
       pos: 7.5,-8.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -7391.24
+      secondsUntilStateChange: -8510.264
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -3910,6 +3910,14 @@ entities:
           - Open
         - - Pressed
           - Close
+- proto: SinkWide
+  entities:
+  - uid: 771
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 7.5,-17.5
+      parent: 1
 - proto: SMESBasic
   entities:
   - uid: 572
