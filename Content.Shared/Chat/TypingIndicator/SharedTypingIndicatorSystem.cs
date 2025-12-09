@@ -2,7 +2,7 @@ using Content.Shared.ActionBlocker;
 using Content.Shared.Clothing;
 using Content.Shared.Inventory;
 using Robust.Shared.Player;
-using Robust.Shared.Prototypes;
+using Robust.Shared.Prototypes; // DeltaV: TypingIndicator overrides
 using Robust.Shared.Timing;
 
 namespace Content.Shared.Chat.TypingIndicator;
@@ -81,7 +81,7 @@ public abstract class SharedTypingIndicatorSystem : EntitySystem
         }
 
         SetTypingOverride(uid.Value, ev.OverrideIndicator); // DeltaV
-        SetTypingIndicatorState(uid.Value, ev.State);
+        SetTypingIndicatorEnabled(uid.Value, ev.IsTyping);
     }
 
     private void SetTypingIndicatorState(EntityUid uid, TypingIndicatorState state, AppearanceComponent? appearance = null)
@@ -90,6 +90,15 @@ public abstract class SharedTypingIndicatorSystem : EntitySystem
             return;
 
         _appearance.SetData(uid, TypingIndicatorVisuals.State, state, appearance);
+    }
+
+    /// <summary>
+    /// DeltaV: Enables or disables the typing indicator
+    /// </summary>
+    private void SetTypingIndicatorEnabled(EntityUid uid, bool enabled)
+    {
+        var state = enabled ? TypingIndicatorState.Typing : TypingIndicatorState.None;
+        SetTypingIndicatorState(uid, state);
     }
 
     /// <summary>
