@@ -107,7 +107,7 @@
     - SpawnDungeonLootAmmoLethal
     - SpawnDungeonLootAmmoRubber
     - SpawnDungeonLootAmmoRubber
-    - SpawnDungeonLootAmmoPractice
+    #- SpawnDungeonLootAmmoPractice # This is honestly useless
     chance: 0.75
     offset: 0.0
     rarePrototypes:
