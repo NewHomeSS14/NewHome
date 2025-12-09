@@ -55,7 +55,7 @@
 # Aurora's Song - B&S AP4C SMG chambered in .40 pistol
 - type: entity
   id: ASWeaponSubMachineGunAP4C
-  parent: [ ASBaseWeaponSubMachineGunChamber40, ASBaseWeaponFrameSubMachineGunNanotrasenWieldable ]
+  parent: [ BaseC2ContrabandUnredeemable, ASBaseWeaponSubMachineGunChamber40, ASBaseWeaponFrameSubMachineGunNanotrasenWieldable ]
   name: B&S AP4C
   description: |-
     A compact submachine gun originally employed by SWAT teams. Manufactured by Becker & Schulz Armorers.
