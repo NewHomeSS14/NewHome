@@ -5315,3 +5315,14 @@ Entries:
   id: 8887
   time: '2025-12-10T19:57:55.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/646
+- author: Vandanna
+  changes:
+    - type: Add
+      message: .40cal ammo and subsystems
+    - type: Add
+      message: AP4C SMG
+    - type: Fix
+      message: Vandanna's copyright attributions
+  id: 8888
+  time: '2025-12-10T20:05:04.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/586
