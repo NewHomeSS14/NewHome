@@ -5169,3 +5169,10 @@ Entries:
   id: 8869
   time: '2025-11-29T04:14:49.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/626
+- author: assignedgod
+  changes:
+    - type: Add
+      message: gave fairies a glow radius!
+  id: 8870
+  time: '2025-11-30T02:33:46.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/629
