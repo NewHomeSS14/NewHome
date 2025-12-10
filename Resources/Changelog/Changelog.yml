@@ -5116,3 +5116,14 @@ Entries:
   id: 8862
   time: '2025-11-26T13:27:38.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/625
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Zombie enemy mob type
+    - type: Add
+      message: Zombie expeditions
+    - type: Add
+      message: Some biohazard-themed clothing
+  id: 8863
+  time: '2025-12-03T15:43:42.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/632
