@@ -5227,3 +5227,10 @@ Entries:
   id: 8877
   time: '2025-12-07T04:34:01.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/636
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Added a new track to exped end songs.
+  id: 8878
+  time: '2025-12-05T00:50:20.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/630
