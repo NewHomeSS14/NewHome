@@ -20,6 +20,7 @@
   minLimit: 0
   loadouts:
   - SheriffOuterClothing
+  - SheriffClothingOuterArmorBulletproof
 
 - type: loadoutGroup
   id: SheriffHead
@@ -53,8 +54,6 @@
   name: loadout-group-contractor-face
   hidden: true # No point in showing this, it gets auto-selected.
   loadouts:
-  - SheriffClothingMaskSheriff
-  fallbacks:
   - SheriffClothingMaskSheriff
 
 - type: loadoutGroup

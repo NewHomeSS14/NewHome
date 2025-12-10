@@ -154,8 +154,8 @@
 - type: entity
   id: NfsdTechFab
   parent: [ NFBlueprintReceiverBase, SecurityTechFab ]
-  name: SLE techfab
-  description: Prints equipment for use by SLE.
+  name: NFSD techfab
+  description: Prints equipment for use by NFSD.
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/techfab.rsi
@@ -215,10 +215,6 @@
     staticPacks:
     - NFMercenaryTechfabDeprecatedStatic
     - NfsdPracticeStatic
-    dynamicPacks:
-    - ScienceExplosives
-    - AdvancedTools
-    - NFPouches
   - type: EmagLatheRecipes
     emagStaticPacks:
     - ASMercenaryEmag
@@ -292,8 +288,8 @@
   - type: LitOnPowered
   - type: ApcPowerReceiver
     powerLoad: 200
-  - type: Advertise
-    pack: CuddlyCritterAds
+  - type: DatasetVocalizer
+    dataset: CuddlyCritterAds
   - type: PointLight
     radius: 1.5
     energy: 1.6

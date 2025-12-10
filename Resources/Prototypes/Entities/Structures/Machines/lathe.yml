@@ -143,7 +143,8 @@
     - NFServiceStatic # Frontier
     - ReportingStatic # DeltaV
     - NFPaperAndPaperAccessories # Frontier
-    - SexAS
+    - ASBlueMagentaColorFlashlights # Aurora
+    - SexAS # Aurora
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
@@ -305,6 +306,7 @@
     - NFEngineeringBoards # Frontier
     - NFMedicalBoards # Frontier
     - NFServiceBoards # Frontier
+    - BluespaceReagentGrinderRecipieAS #Aurora
   - type: EmagLatheRecipes
     emagDynamicPacks: [] # Frontier: empty list
     # - SecurityBoards # Frontier
@@ -533,7 +535,11 @@
     - EmptyMedkitsStatic
     - SurgeryStatic
     - NFLights # Aurora, let them amke lights cmon
+    - ASBlueMagentaColorFlashlights # Aurora
     - NFMedicalStatic # Frontier
+    - ASSmallMachines # Aurora Song
+    # staticRecipes: # Deprecated functionality, use staticPacks instead
+    #   - AACTablet # DeltaV
     # dynamicPacks: # Frontier
     # - Chemistry # Frontier
   - type: Machine
@@ -588,6 +594,7 @@
     - NFUniformSpecial # Frontier
     - NFUniformCloaks # Frontier
     - NFWallets # Frontier
+    - ASCompanySuits # Aurora
     dynamicPacks: # Frontier
     - NFPouches # Frontier
   - type: EmagLatheRecipes

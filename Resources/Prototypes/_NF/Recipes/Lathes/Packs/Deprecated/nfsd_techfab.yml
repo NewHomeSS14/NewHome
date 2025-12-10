@@ -30,6 +30,8 @@
   - PowerCageMedium
   - PowerCageSmall
   - Signaller
+  - LightTube # Aurora Song - Going and finding lights is annoying
+  - LightBulb # Aurora Song - Going and finding lights is annoying
 
 # Practice ammo/mags and practice weapons
 - type: latheRecipePack
@@ -40,6 +42,7 @@
   - NFAmmunitionBoxRifle20Practice
   - NFAmmunitionBoxRifle30Practice
   - NFAmmunitionBoxShellShotgunPractice
+  - NFAmmunitionBoxShellShotgunBuckshot # Aurora Song - Added buckshot
   - NFWeaponEnergyPistolDisablerPractice
   - NFWeaponEnergyRifleCarbinePractice
 

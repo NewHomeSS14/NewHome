@@ -53,7 +53,7 @@
   id: JobMercenary
   groups:
   - MercenaryHead
-  - ContractorNeck
+  - MercenaryNeck # Aurora Song
   - MercenaryJumpsuit
   - MercenaryGloves
   - MercenaryBackpack
@@ -151,7 +151,7 @@
   - StcForcedOuterClothing
   - StcShoes
   - ContractorFace
-  - ContractorGlasses
+  - StcGlasses
   - ContractorBelt
   - StcEars
   - ContractorBoxSurvival
@@ -174,8 +174,8 @@
   - StationRepForcedOuterClothing
   - ContractorShoes
   - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
+  - StationRepGlasses
+  - StationRepBelt
   - StationRepEars
   - ContractorBoxSurvival
   - StationRepPDA
@@ -218,12 +218,12 @@
   - DocJumpsuit
   - DocGloves
   - DocBackpack
-  - ContractorOuterClothing
+  - MedicOuterClothing
   - DocForcedOuterClothing
   - DocShoes
   - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
+  - MedicGlasses # Aurora Song
+  - MedicBelt
   - DocEars
   - ContractorBoxSurvival
   - DocPDA

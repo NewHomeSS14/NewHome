@@ -1,0 +1,43 @@
+#medical gun safe Fill
+- type: entity
+  parent: GunSafe
+  id: GunSafeMedical
+  suffix: Filled, Medical
+  components:
+  - type: AccessReader
+    access: [["Medical"]]
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillGunSafeMedical
+
+- type: entityTable
+  id: FillGunSafeMedical
+  table: !type:AllSelector
+    children:
+    - id: NFWeaponShotgunKammerer
+    - id: NFAmmunitionBoxShellShotgunBuckshot
+    - id: NFAmmunitionBoxShellShotgunBeanbag
+#medical gun safe Fill x2
+- type: entity
+  parent: GunSafe
+  id: GunSafeMedical2
+  suffix: Filled, Medical, x2
+  components:
+  - type: AccessReader
+    access: [["Medical"]]
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillGunSafeMedical2
+
+- type: entityTable
+  id: FillGunSafeMedical2
+  table: !type:AllSelector
+    children:
+    - id: NFWeaponShotgunKammerer
+    - id: NFWeaponShotgunKammerer
+    - id: NFAmmunitionBoxShellShotgunBuckshot
+    - id: NFAmmunitionBoxShellShotgunBuckshot
+    - id: NFAmmunitionBoxShellShotgunBeanbag
+    - id: NFAmmunitionBoxShellShotgunBeanbag
