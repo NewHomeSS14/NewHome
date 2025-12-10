@@ -5220,3 +5220,10 @@ Entries:
   id: 8876
   time: '2025-12-04T17:21:10.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/634
+- author: Vandanna
+  changes:
+    - type: Add
+      message: the CNS Petrel
+  id: 8877
+  time: '2025-12-07T04:34:01.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/636
