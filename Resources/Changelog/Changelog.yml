@@ -5241,3 +5241,10 @@ Entries:
   id: 8879
   time: '2025-12-07T06:12:41.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/637
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: CNS Petrel - add some QoL, some color, and a telecomm server
+  id: 8880
+  time: '2025-12-07T19:47:45.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/639
