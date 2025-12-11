@@ -5340,3 +5340,10 @@ Entries:
   id: 8890
   time: '2025-12-11T16:10:35.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/652
+- author: assignedgod
+  changes:
+    - type: Remove
+      message: Removed practice ammo from loot table spawns
+  id: 8891
+  time: '2025-12-11T16:10:50.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/647
