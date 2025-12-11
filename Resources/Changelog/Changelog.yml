@@ -5347,3 +5347,10 @@ Entries:
   id: 8891
   time: '2025-12-11T16:10:50.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/647
+- author: Vandanna
+  changes:
+    - type: Add
+      message: longarm, sidearm, ammo loadout categories for Mercs
+  id: 8892
+  time: '2025-12-11T20:45:36.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/653
