@@ -17,6 +17,9 @@
     tags:
     - LightBulb
     - Trash
+  - type: PhysicalComposition
+    materialComposition:
+      Glass: 25
 
 - type: entity
   parent: BaseLightTube
@@ -31,6 +34,9 @@
     lightSoftness: 0.9
     BurningTemperature: 350
     PowerUse: 12
+  - type: PhysicalComposition
+    materialComposition:
+      Glass: 25
 
 
 - type: entity
@@ -51,6 +57,9 @@
     tags:
     - LightBulb
     - Trash
+  - type: PhysicalComposition
+    materialComposition:
+      Glass: 25
 
 - type: entity
   parent: BaseLightTube
@@ -65,3 +74,6 @@
     lightSoftness: 0.9
     BurningTemperature: 350
     PowerUse: 12
+  - type: PhysicalComposition
+    materialComposition:
+      Glass: 25
