@@ -540,6 +540,7 @@
     - ASBlueMagentaColorFlashlights # Aurora
     - NFMedicalStatic # Frontier
     - ASSmallMachines # Aurora Song
+    - ASBlueMagentaLights # Aurora
     # staticRecipes: # Deprecated functionality, use staticPacks instead
     #   - AACTablet # DeltaV
     # dynamicPacks: # Frontier

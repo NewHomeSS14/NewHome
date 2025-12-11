@@ -81,6 +81,7 @@
     - NFPaperAndPaperAccessories
     - ReportingStatic # DeltaV
     - NFMcServiceTechfabStatic
+    - ASBlueMagentaLights # Aurora
 
 - type: entity
   parent: [ NFBlueprintReceiverBase, BaseLatheLube ]
