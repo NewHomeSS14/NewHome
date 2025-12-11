@@ -7,6 +7,7 @@
   - MercenaryAmmoPistol35
   - MercenaryAmmoPistol35Rubber
   - MercenaryAmmoPistol40
+  - MercenaryAmmoPistol40Rubber
   - MercenaryAmmoPistol45
   - MercenaryAmmoPistol45Rubber
   - MercenaryAmmoShotgun12Buckshot
@@ -44,6 +45,13 @@
   storage:
     back:
     - ASAmmunitionBoxPistol40
+
+- type: loadout
+  id: MercenaryAmmoPistol40Rubber
+  price: 300
+  storage:
+    back:
+    - ASAmmunitionBoxPistol40Rubber
 
 - type: loadout
   id: MercenaryAmmoPistol45
