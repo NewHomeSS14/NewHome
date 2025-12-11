@@ -5326,3 +5326,10 @@ Entries:
   id: 8888
   time: '2025-12-10T20:05:04.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/586
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: PDAs can no longer be sentient
+  id: 8889
+  time: '2025-12-11T15:50:09.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/650
