@@ -1,0 +1,33 @@
+# Sidearm loadouts for Mercenary
+
+- type: loadoutGroup
+  id: MercenarySidearm
+  name: loadout-group-mercenary-sidearm
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - MercenarySidearmMK58
+  - MercenarySidearmPollock
+  - MercenarySidearmFitz
+
+# Loadouts
+- type: loadout
+  id: MercenarySidearmMK58
+  price: 3800
+  storage:
+    back:
+    - NFWeaponPistolMk58
+
+- type: loadout
+  id: MercenarySidearmPollock
+  price: 7500
+  storage:
+    back:
+    - NFWeaponPistolPollock
+
+- type: loadout
+  id: MercenarySidearmFitz
+  price: 3600
+  storage:
+    back:
+    - NFWeaponRevolverFitz
