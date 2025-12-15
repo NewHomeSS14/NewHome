@@ -5391,3 +5391,12 @@ Entries:
   id: 8897
   time: '2025-12-12T00:03:42.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/655
+- author: Phoenix51505
+  changes:
+    - type: Tweak
+      message: Softened colours of syndice hardsuit lights
+    - type: Tweak
+      message: Increased brightness and radius of CE hardsuit light
+  id: 8898
+  time: '2025-12-15T19:54:29.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/658
