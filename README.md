@@ -1,28 +1,32 @@
 <div class="header" align="center">
-<img alt="Frontier Station" height="300" src="https://github.com/AuroraSong14/Aurora-Song-14/blob/master/Resources/Textures/_AS/Logo/logo.png" />
+NewHome logo goes here.
 </div>
+
+NewHome is a fork of [Aurora Song](https://github.com/space-wizards/space-station-14).
+
+This is the primary repo for NewHome.
 
 Aurora Song is a fork of [Space Station 14](https://github.com/space-wizards/space-station-14) that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
 
-This is the primary repo for Aurora Song.
+<p align="center"> <img alt="Space Station 14" width="440" height="150" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" /></p>
 
-If you want to host or create content for Aurora Song, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+If you want to host or create content for NewHome, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
 
 ## Links
 
 <div class="header" align="center">
 
-[Discord](https://discord.gg/zUXmPrwbbM) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Wiki](https://wiki.aurorasong.net/index.php)
+[Discord](https://discord.gg/tpuAT7d3zm/](https://discord.gg/CeG8RDEUF3)) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | Wiki is not real
 
 </div>
 
 ## Documentation/Wiki
 
-Our [wiki](https://wiki.aurorasong.net/index.php) has documentation on Aurora Song's content.
+Our ( WIKI NOT CREATED ) has documentation on NewHome's content.
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help, and don't be afraid to ask for help of your own!
+We are happy to accept contributions from anybody. Please join us Discord if you want to help. We've got a [list of ideas](https://discord.com/channels/1123826877245694004/1127017858833068114) that we have sitting around if you want a challenge, or desire to know more about the direction of the fork. Don't be afraid to ask for help either!
 
 If you make any contributions, note that any changes made to files belonging to our upstream should be properly marked with comments (see the "Changes to upstream files" section in [CONTRIBUTING.md](https://github.com/AuroraSong14/Aurora-Song-14/blob/master/CONTRIBUTING.md)).
 
@@ -30,11 +34,11 @@ If you make any contributions, note that any changes made to files belonging to 
 
 1. Clone this repo:
 ```shell
-git clone https://github.com/AuroraSong14/Aurora-Song-14.git
+git clone https://github.com/NewHomeSS14/NewHome/NewHome-14.git
 ```
 2. Go to the project folder and run `RUN_THIS.py` to initialize the submodules and load the engine:
 ```shell
-cd Aurora-Song-14
+cd NewHome-14
 python RUN_THIS.py
 ```
 3. Compile the solution:
@@ -65,7 +69,8 @@ Content under these subdirectories originate from their respective forks and may
 
 | Subdirectory | Fork Name | Fork Repository | License |
 |--------------|-----------|-----------------|---------|
-| `_AS` | Aurora Song | https://github.com/AuroraSong14/Aurora-Song-14/ | AGPL 3.0
+| `_AS` | Aurora Song | https://github.com/AuroraSong14/Aurora-Song-14/ | AGPL 3.0 |
+| `_NewHome` | NewHome | https://github.com/NewHomeSS14/NewHome/ | AGPL 3.0 |
 | `_NF` | Frontier Station | https://github.com/new-frontiers-14/frontier-station-14 | AGPL 3.0 |
 | `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT |
 | `_Corvax` | Corvax | https://github.com/space-syndicate/space-station-14 | MIT |
