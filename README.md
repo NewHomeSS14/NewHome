@@ -4,7 +4,7 @@ NewHome logo goes here.
 
 NewHome is a fork of [Aurora Song](https://github.com/space-wizards/space-station-14).
 
-This is the primary repo for NewHome.
+This is an old repo of NewHome that is no longer in use.
 
 Aurora Song is a fork of [Space Station 14](https://github.com/space-wizards/space-station-14) that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
 
