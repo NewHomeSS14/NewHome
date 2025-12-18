@@ -1,3 +1,11 @@
+- type: lobbyBackground
+  id: Sushivern
+  background: /Textures/LobbyScreens/sushivern.webp
+  
+- type: lobbyBackground
+  id: Epivern
+  background: /Textures/LobbyScreens/epivern.webp
+
 # - type: lobbyBackground
   # id: Warden
   # background: /Textures/LobbyScreens/warden.webp
@@ -22,9 +30,9 @@
   # id: Doomed
   # background: /Textures/LobbyScreens/doomed.webp
 
-- type: lobbyBackground
-  id: Blueprint
-  background: /Textures/LobbyScreens/blueprint.webp
+# - type: lobbyBackground
+  # id: Blueprint
+  # background: /Textures/LobbyScreens/blueprint.webp
 
 # - type: lobbyBackground
   # id: Behonker
