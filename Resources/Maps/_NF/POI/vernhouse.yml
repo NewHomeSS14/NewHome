@@ -4,8 +4,8 @@ meta:
   engineVersion: 261.2.2
   forkId: ""
   forkVersion: ""
-  time: 11/21/2025 00:08:46
-  entityCount: 3059
+  time: 12/18/2025 16:14:16
+  entityCount: 3061
 maps: []
 grids:
 - 1
@@ -2091,14 +2091,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -17.5,0.5
       parent: 1
-- proto: AirlockExternalGlassDropPodFilled
-  entities:
-  - uid: 60
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -7.5,3.5
-      parent: 1
 - proto: AirlockFreezer
   entities:
   - uid: 61
@@ -2373,12 +2365,6 @@ entities:
     components:
     - type: Transform
       pos: 16.5,-17.5
-      parent: 1
-  - uid: 112
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -7.5,3.5
       parent: 1
 - proto: AtmosFixBlockerMarker
   entities:
@@ -14676,6 +14662,11 @@ entities:
       parent: 1
 - proto: Grille
   entities:
+  - uid: 112
+    components:
+    - type: Transform
+      pos: -7.5,3.5
+      parent: 1
   - uid: 1968
     components:
     - type: Transform
@@ -15131,6 +15122,11 @@ entities:
     components:
     - type: Transform
       pos: 15.5,7.5
+      parent: 1
+  - uid: 3061
+    components:
+    - type: Transform
+      pos: 17.5,13.5
       parent: 1
 - proto: KitchenElectricRange
   entities:
@@ -17347,6 +17343,11 @@ entities:
       parent: 1
 - proto: ReinforcedWindow
   entities:
+  - uid: 60
+    components:
+    - type: Transform
+      pos: -7.5,3.5
+      parent: 1
   - uid: 2287
     components:
     - type: Transform
@@ -17724,6 +17725,9 @@ entities:
         - - Pressed
           - Toggle
         2224:
+        - - Pressed
+          - Toggle
+        2191:
         - - Pressed
           - Toggle
 - proto: RollingPin
@@ -18601,6 +18605,11 @@ entities:
     components:
     - type: Transform
       pos: 9.5,7.5
+      parent: 1
+  - uid: 3060
+    components:
+    - type: Transform
+      pos: 17.5,13.5
       parent: 1
 - proto: TableCarpet
   entities:
