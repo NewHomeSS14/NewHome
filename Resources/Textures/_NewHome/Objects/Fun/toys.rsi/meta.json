@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "PlushieSueHandmade and PlushieLeafyHandmade and PlushieMintHandmade created by Haawsome on discord",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+		{
+            "name": "PlushieSueHandmade"
+        },
+		{
+            "name": "PlushieLeafyHandmade"
+        },
+		{
+            "name": "PlushieMintHandmade"
+        }
+    ]
+}
