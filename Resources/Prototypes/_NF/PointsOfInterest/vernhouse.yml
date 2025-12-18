@@ -1,0 +1,57 @@
+# Author Info
+# GitHub: Zenixic
+# Discord: zenixic
+
+# Maintainer Info
+# GitHub: Zenixic
+# Discord: zenixic
+
+# Notes:
+
+- type: pointOfInterest
+  id: Vernhouse
+  parent: BasePOI
+  name: "Vern's House"
+  minimumDistance: 2500
+  maximumDistance: 3500
+  spawnGroup: Required
+  gridPath: /Maps/_NF/POI/vernhouse.yml
+  addComponents:
+  - type: IFF
+    color: "#7BB109"
+
+- type: gameMap
+  id: Vernhouse
+  mapName: "Vern's House"
+  mapPath: /Maps/_NF/POI/vernhouse.yml
+  minPlayers: 0
+  stations:
+    Vernhouse:
+      stationProto: RecordsFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Expeditionary Lodge'
+        - type: ExtraStationInformation
+          iconPath: /Textures/_NF/Objects/Consumable/Food/sushi.rsi/avocadosushislice
+          stationSubtext: 'frontier-lobby-exped-subtext'
+          stationDescription: 'frontier-lobby-exped-description'
+          lobbySortOrder: 3
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ -1, -1 ]
+            Pilot: [ -1, -1 ]
+            Mercenary: [ -1, -1 ]
+            Sheriff: [ 1, 1 ]
+            Bailiff: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]
+            Brigmedic: [ 0, 0 ]
+            NFDetective: [ 0, 0 ]
+            Deputy: [ 3, 3 ]
+            Cadet: [ 0, 0 ]
+            PublicAffairsLiaison: [ 1, 1 ]
+            NFPirateCaptain: [ 1, 1 ]
+            NFPirateFirstMate: [ 1, 1 ]
+            NFPirate: [ 0, 0 ]
+            DirectorOfCare: [ 1, 1 ]
+            Valet: [ -1, -1 ]
+        - type: StationDeadDropHintExempt
