@@ -1,0 +1,73 @@
+## Plushies
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieSueHandmade
+  name: handmade slime plushie
+  description: A plushie of a slimeperson patched together skillfully. The slimeperson looks... very familiar.
+  components:
+  - type: Sprite
+    sprite: _NewHome/Objects/Fun/toys.rsi
+    state: PlushieSueHandmade
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: SpeakOnTrigger
+    pack: PlushieSueMessages
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieLeafyHandmade
+  name: handmade light green harpy plushie
+  description: A plushie of a Light Green Harpy patched together skillfully. The harpy looks... very familiar.
+  components:
+  - type: Sprite
+    sprite: _NewHome/Objects/Fun/toys.rsi
+    state: PlushieLeafyHandmade
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_DV/Voice/Harpy/chirp1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_DV/Voice/Harpy/chirp1.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_DV/Voice/Harpy/chirp1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_DV/Voice/Harpy/chirp1.ogg
+  - type: SpeakOnTrigger
+    pack: PlushieLeafyMessages
+    
+- type: entity
+  parent: BasePlushie
+  id: PlushieMintHandmade
+  name: handmade felinid slime plushie
+  description: A plushie of a slimeperson with felinid features patched together skillfully. The felinid slimeperson looks... very familiar.
+  components:
+  - type: Sprite
+    sprite: _NewHome/Objects/Fun/toys.rsi
+    state: PlushieMintHandmade
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: SpeakOnTrigger
+    pack: PlushieMintMessages
