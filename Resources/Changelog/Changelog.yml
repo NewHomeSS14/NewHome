@@ -5400,3 +5400,232 @@ Entries:
   id: 8898
   time: '2025-12-15T19:54:29.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/658
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Re-enabled the santa anomaly. Look out for dangerous presents!
+  id: 8899
+  time: '2025-12-16T18:27:54.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/660
+- author: assignedgod
+  changes:
+    - type: Add
+      message: Added wizard uiv changes from upstream
+    - type: Add
+      message: Added inflatable wall changes from upstream
+    - type: Fix
+      message: Added weightlessness fixes from upstream
+  id: 8900
+  time: '2025-12-16T18:33:16.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/659
+- author: Vandanna
+  changes:
+    - type: Add
+      message: port of PR 4147 from NF, add PDA timers
+  id: 8901
+  time: '2025-12-16T20:53:19.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/663
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Medic Hardsuit
+    - type: Fix
+      message: Medic Gear Vend uses proper suffix
+    - type: Remove
+      message: PrivSec suit from Medic Gear Vend
+  id: 8902
+  time: '2025-12-16T20:58:12.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/662
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: load-bearing inflatable-floor.png. I'm having flashbacks.
+  id: 8903
+  time: '2025-12-17T15:43:28.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/666
+- author: assignedgod
+  changes:
+    - type: Add
+      message: 'Cherry picked PR #3690 from NF, cleaning up lathe code'
+    - type: Add
+      message: 'Cherry picked PR # 4098 from NF, adding new arcadia clothes'
+    - type: Add
+      message: >-
+        Cherry picked PR # 4047 from NF, adding some filled RPEDs to admin spawn
+        lists
+    - type: Add
+      message: 'Cherry picked PR # 4015 from NF, adding cloth to material lockers '
+    - type: Add
+      message: >-
+        Cherry picked PR # 4116 from NF, adding new leg holsters and drop
+        sheathes
+    - type: Add
+      message: 'Cherry picked PR # 3048 from NF, adding portable SMES'
+    - type: Add
+      message: >-
+        Cherry picked PR # 3851 from NF, adding colored lights to the service
+        fab
+    - type: Add
+      message: 'Cherry picked PR # 4087 from NF, overhauling dungeon loot spawns'
+    - type: Add
+      message: 'Cherry picked PR # 3769 from NF, adding new hardsuits'
+    - type: Add
+      message: 'Cherry picked PR # 4028 from NF, adding a new lathe'
+    - type: Add
+      message: 'Cherry picked PR # 4029 from NF, adding a new plant the glowshroom'
+    - type: Add
+      message: 'Cherry picked PR # 3828 from NF, adding medical pouches from wizden'
+    - type: Add
+      message: 'Cherry picked PR # 4095  from NF, tweaking pouch size'
+    - type: Add
+      message: 'Cherry picked PR # 3927 from NF, making blueprints nondepartmental'
+    - type: Add
+      message: 'Cherry picked PR # 3668 from NF, making stimulants injectors less lethal'
+  id: 8904
+  time: '2025-12-18T17:08:15.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/661
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Moved the new modified vitalis the the NF namespace
+  id: 8905
+  time: '2025-12-18T17:08:32.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/667
+- author: assignedgod
+  changes:
+    - type: Remove
+      message: Removed mines from explorer backpacks
+  id: 8906
+  time: '2025-12-19T03:55:24.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/668
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: NPC pathing, behaviors, and performance
+  id: 8907
+  time: '2025-12-19T19:55:57.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/664
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: access requirements on the CHL PC
+  id: 8908
+  time: '2026-01-05T03:45:40.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/671
+- author: Vandanna
+  changes:
+    - type: Add
+      message: sidearm and ammo loadout groups for Contractors
+  id: 8909
+  time: '2026-01-05T17:21:31.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/676
+- author: Vandanna
+  changes:
+    - type: Add
+      message: a second neck slot
+  id: 8910
+  time: '2026-01-05T23:36:08.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/669
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: .25 mags now render properly again
+    - type: Fix
+      message: .25 mags use their in-hand sprites now
+    - type: Tweak
+      message: .25 rubber mags use normal sprite states
+  id: 8911
+  time: '2026-01-05T23:53:39.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/673
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: mob stamina thresholds
+  id: 8912
+  time: '2026-01-06T00:05:47.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/677
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: .40cal distro in several vendors, fabs
+    - type: Fix
+      message: 12g missing from rng vend (libstation)
+    - type: Tweak
+      message: AP4C volume
+  id: 8913
+  time: '2026-01-06T00:22:34.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/670
+- author: Vandanna
+  changes:
+    - type: Add
+      message: add the MilSurp hardsuit, by C1trus
+  id: 8914
+  time: '2026-01-06T20:43:07.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/678
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: shotguns properly update ammo counter on reload
+  id: 8915
+  time: '2026-01-06T23:15:41.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/679
+- author: Leostel
+  changes:
+    - type: Tweak
+      message: Oni no longer suck at magic.
+  id: 8916
+  time: '2026-01-07T07:17:04.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/680
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: medical vends now carry empty medkits
+    - type: Fix
+      message: liberation station restocks now work again
+  id: 8917
+  time: '2026-01-07T17:42:28.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/681
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: >-
+        hardsuits with unshaded layers not properly transforming between
+        different species wearers
+  id: 8918
+  time: '2026-01-09T07:13:59.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/682
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Fort Armor Set by ItzaLeaf
+  id: 8919
+  time: '2026-01-09T07:49:51.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/683
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: AS Logo update
+  id: 8920
+  time: '2026-01-09T07:58:18.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/684
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: ledger tab entry for Aurora Sector
+  id: 8921
+  time: '2026-01-13T03:14:13.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/687
+- author: BudaLope
+  changes:
+    - type: Add
+      message: Consent options for chemicals
+  id: 8922
+  time: '2026-01-15T00:24:12.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/688
+- author: Zenixic
+  changes:
+    - type: Fix
+      message: Fixed bar signs being blank.
+  id: 8923
+  time: '2026-01-22T19:33:19.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/691
