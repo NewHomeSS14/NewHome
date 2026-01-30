@@ -1,0 +1,98 @@
+# LoveVend Vending Machine
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineLove
+  name: LoveVend
+  description: Keeping you safe and educated.
+  components:
+  - type: VendingMachine
+    pack: LoveVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: DatasetVocalizer
+    pack: LoveVendAds
+  - type: SpeakOnUIClosed
+    pack: LoveVendGoodbyes
+  - type: Speech
+  - type: PointLight
+    radius: 1.5
+    energy: 1.3
+    color: "#FFFFFF"
+  - type: Sprite
+    sprite: _NewHome/Structures/Machines/VendingMachines/lovevend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      
+# LewdVend Vending Machine
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineLewd
+  name: LewdVend
+  description: A vending machine containing items of the more... personal variety.
+  components:
+  - type: VendingMachine
+    pack: LewdVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: DatasetVocalizer
+    pack: LewdVendAds
+  - type: SpeakOnUIClosed
+    pack: LewdVendGoodbyes
+  - type: Speech
+  - type: PointLight
+    radius: 1.5
+    energy: 1.3
+    color: "#ea9599" # Screen red so light red
+  - type: Sprite
+    sprite: _NewHome/Structures/Machines/VendingMachines/lewdvend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      
+# PetSpencer Vending Machine
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachinePets
+  name: Pet dispensary
+  description: Contray to it's name it dispenses very few pets.
+  components:
+  - type: VendingMachine
+    pack: PetSpencerInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: DatasetVocalizer
+    pack: PetSpencerAds
+  - type: SpeakOnUIClosed
+    pack: PetSpencerGoodbyes
+  - type: Speech
+  - type: PointLight
+    radius: 1.5
+    energy: 1.3
+    color: "#FFFFFF"
+  - type: Sprite
+    sprite: _NewHome/Structures/Machines/VendingMachines/petspencer.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]

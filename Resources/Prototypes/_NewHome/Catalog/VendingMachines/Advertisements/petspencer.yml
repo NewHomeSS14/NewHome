@@ -1,0 +1,11 @@
+- type: localizedDataset
+  id: PetSpencerAds
+  values:
+    prefix: advertisement-petspencer-
+    count: 9
+
+- type: localizedDataset
+  id: PetSpencerGoodbyes
+  values:
+    prefix: goodbye-petspencer-
+    count: 7

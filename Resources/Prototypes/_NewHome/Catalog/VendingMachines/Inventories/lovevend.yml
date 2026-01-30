@@ -1,0 +1,8 @@
+- type: vendingMachineInventory
+  id: LoveVendInventory
+  startingInventory:
+    DrinkSpaceLube: 10
+  contrabandInventory:
+    CrazyGlue: 1
+  emaggedInventory:
+    PlushieJester: 3
