@@ -1,0 +1,11 @@
+- type: lobbyBackground
+  id: Sushivern
+  background: /Textures/_NewHome/LobbyScreens/sushivern.webp
+  
+- type: lobbyBackground
+  id: Epivern
+  background: /Textures/_NewHome/LobbyScreens/epivern.webp
+
+- type: lobbyBackground
+  id: Kibofamily
+  background: /Textures/_NewHome/LobbyScreens/kibofamily.webp
