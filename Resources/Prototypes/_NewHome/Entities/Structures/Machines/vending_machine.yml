@@ -12,7 +12,7 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: DatasetVocalizer
-    pack: LoveVendAds
+    dataset: LoveVendAds
   - type: SpeakOnUIClosed
     pack: LoveVendGoodbyes
   - type: Speech
@@ -45,7 +45,7 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: DatasetVocalizer
-    pack: LewdVendAds
+    dataset: LewdVendAds
   - type: SpeakOnUIClosed
     pack: LewdVendGoodbyes
   - type: Speech
@@ -78,7 +78,7 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: DatasetVocalizer
-    pack: PetSpencerAds
+    dataset: PetSpencerAds
   - type: SpeakOnUIClosed
     pack: PetSpencerGoodbyes
   - type: Speech
