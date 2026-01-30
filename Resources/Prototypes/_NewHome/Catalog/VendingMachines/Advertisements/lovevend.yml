@@ -1,0 +1,11 @@
+- type: localizedDataset
+  id: LoveVendAds
+  values:
+    prefix: advertisement-lovevend-
+    count: 9
+
+- type: localizedDataset
+  id: LoveVendGoodbyes
+  values:
+    prefix: goodbye-lovevend-
+    count: 7

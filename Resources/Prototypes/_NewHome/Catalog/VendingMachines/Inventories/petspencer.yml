@@ -1,0 +1,31 @@
+- type: vendingMachineInventory
+  id: PetSpencerInventory
+  startingInventory:
+    ClothingNeckCollarPink: 3
+    ClothingNeckCollarSec: 3
+    ClothingNeckCollarLogi: 3
+    ClothingNeckCollarMed: 3
+    ClothingNeckCollarBlack: 3
+    ClothingNeckCollarCmd: 3
+    ClothingNeckCollarCC: 3
+    ClothingNeckCollarBlue: 3
+    ClothingNeckBellCollar: 3
+    ClothingNeckCollarEngi: 3
+    ClothingNeckCollarEpi: 3
+    ClothingNeckShockCollar: 3
+    LeashBasic: 3
+    LeashAdvanced: 3
+    LeashBluespace: 3
+  contrabandInventory:
+    ClothingNeckCollarSyndi: 3
+  emaggedInventory:
+    PlushieJester: 3
+    PlushieJanitor: 3
+    PlushieMailVulp: 3
+    PlushieYarrMoth: 3
+    PlushieNuke: 3
+    PlushieRGBee: 3
+    BalloonCorgi: 2
+    NFPlushieBotanist: 3
+    NFPlushieCmo: 3
+    NFPlushieEngineer: 3

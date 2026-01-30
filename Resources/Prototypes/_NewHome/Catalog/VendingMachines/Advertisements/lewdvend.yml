@@ -1,0 +1,11 @@
+- type: localizedDataset
+  id: LewdVendAds
+  values:
+    prefix: advertisement-lewdvend-
+    count: 5
+
+- type: localizedDataset
+  id: LewdVendGoodbyes
+  values:
+    prefix: goodbye-lewdvend-
+    count: 6
