@@ -1,0 +1,18 @@
+# Aghost but TOOLS to help with setting things up.
+- type: startingGear
+  id: NHMobAghostGear
+  equipment:
+    back: ClothingBackpackSatchelHolding
+    id: NFAdminPDA
+  storage:
+    back:
+    - GasAnalyzer
+    - trayScanner
+    - AccessConfiguratorUniversal
+    - Multitool
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - TrashBag
+    - LightReplacer
+    - AdvMopItem
