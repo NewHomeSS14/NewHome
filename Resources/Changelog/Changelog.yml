@@ -5629,3 +5629,111 @@ Entries:
   id: 8923
   time: '2026-01-22T19:33:19.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/691
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Reflavored the Hauler derelict
+  id: 8924
+  time: '2026-01-23T13:28:25.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/690
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: Private Security Hardsuit resprite by ZingoDult
+    - type: Fix
+      message: Medic Hardsuit Helmet flashlight
+  id: 8925
+  time: '2026-01-23T15:59:41.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/689
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: Missing decals/ tiles, Petrel, SLEO, The Alley
+    - type: Add
+      message: vendors, QoL on SLEO
+    - type: Add
+      message: ShadyCig vendor on The Alley
+    - type: Fix
+      message: Power wiring on SLEO
+    - type: Fix
+      message: Mule Smuggler Intercept spawners
+    - type: Fix
+      message: High Pressure Ammo research no longer shows unlocking drums
+    - type: Remove
+      message: sex crate from Cargo Request inventory
+    - type: Add
+      message: spare 12g buckshot boxes to Commissioner locker fill
+    - type: Tweak
+      message: chest rig/ webbing prices in vendors
+    - type: Tweak
+      message: labeling in loadouts for rig/ webbing
+    - type: Add
+      message: powered tiny/ directional fans, found in flatpackvend
+  id: 8926
+  time: '2026-01-27T23:38:01.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/693
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: SLE suit sprites add cat ears
+  id: 8927
+  time: '2026-01-30T17:19:38.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/696
+- author: emergency-ketchup and LizArmchair
+  changes:
+    - type: Add
+      message: Little-Byte Key, new Rest Stop
+    - type: Tweak
+      message: Little-Byte Key's CAV system
+    - type: Add
+      message: towel laying
+    - type: Remove
+      message: Tinnia's/ Bahama's Spawns
+    - type: Add
+      message: fills for service supplies
+    - type: Fix
+      message: wood secret doors not connecting
+    - type: Add
+      message: custom lights
+  id: 8928
+  time: '2026-01-30T17:20:16.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/694
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Added a new shuttle to the scrapyard, the XED Drone
+  id: 8929
+  time: '2026-02-01T06:09:09.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/695
+- author: emergency-ketchup
+  changes:
+    - type: Tweak
+      message: Little-Byte Key QoL changes
+  id: 8930
+  time: '2026-02-01T10:42:44.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/700
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: further rebrands SLE to 95% feature-complete items, gear, subsystems
+    - type: Tweak
+      message: revert NFSD back to their original forms
+    - type: Tweak
+      message: further rebrands Aurora Sector from NF/ NT branding
+  id: 8931
+  time: '2026-02-01T22:52:46.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/698
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Added holopad, recharger and EVA lockers to the Drone
+  id: 8932
+  time: '2026-02-02T05:20:30.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/701
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: prison riot wasn't spawning correctly
+  id: 8933
+  time: '2026-02-03T18:43:11.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/703
