@@ -16,7 +16,7 @@ If you want to host or create content for NewHome, this is the repo you need. It
 
 <div class="header" align="center">
 
-[Discord](https://discord.gg/tpuAT7d3zm/](https://discord.gg/CeG8RDEUF3)) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | Wiki is not real
+[Discord](https://discord.gg/CeG8RDEUF3) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | Wiki is not real
 
 </div>
 
