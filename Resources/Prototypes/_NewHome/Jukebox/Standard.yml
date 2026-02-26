@@ -1,0 +1,60 @@
+- type: jukebox
+  id: neverdies
+  name: A Good Song Never Dies - Saint Motel
+  path:
+    path: /Audio/_NewHome/Jukebox/A_Good_Song_Never_Dies.ogg
+
+- type: jukebox
+  id: fool
+  name: Don't be a fool - Eduardo de la Iglesia
+  path:
+    path: /Audio/_NewHome/Jukebox/Dont_Be_a_Fool.ogg
+
+- type: jukebox
+  id: freesia
+  name: Freesia - Naoki
+  path:
+    path: /Audio/_NewHome/Jukebox/Freesia.ogg
+
+- type: jukebox
+  id: heyguys
+  name: Hey guys - Isaac Turner
+  path:
+    path: /Audio/_NewHome/Jukebox/Hey_guys.ogg
+    
+- type: jukebox
+  id: homeworksalad
+  name: homework salad by night - peak divide
+  path:
+    path: /Audio/_NewHome/Jukebox/homework_salad_by_night.ogg
+    
+- type: jukebox
+  id: proudyou
+  name: I'm proud of you - Neighsayer
+  path:
+    path: /Audio/_NewHome/Jukebox/Im_Proud_of_You.ogg
+    
+- type: jukebox
+  id: peacetime
+  name: Peacetime Platonica - Neighsayer
+  path:
+    path: /Audio/_NewHome/Jukebox/Peacetime_Platonica.ogg
+    
+- type: jukebox
+  id: flameslove
+  name: The flames of love - Smokey Bennett & The Hoops
+  path:
+    path: /Audio/_NewHome/Jukebox/The_Flames_of_Love.ogg
+    
+- type: jukebox
+  id: ourtime
+  name: This is our time - Miles Malone
+  path:
+    path: /Audio/_NewHome/Jukebox/This_Is_Our_Time.ogg
+    
+- type: jukebox
+  id: midnightchristmas
+  name: All I want for christmas (is to kick your ass) - Midnight Riders
+  path:
+    path: /Audio/_NewHome/Jukebox/All_I_want_for_christmas.ogg
+
