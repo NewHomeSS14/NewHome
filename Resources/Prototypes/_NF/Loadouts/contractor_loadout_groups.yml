@@ -868,6 +868,7 @@
   - ContractorHandheldCrewMonitor
   - ContractorHypoMini
   - ContractorBible
+  - LeashBasic # Floofstation
 
 - type: loadoutGroup
   id: ContractorFace

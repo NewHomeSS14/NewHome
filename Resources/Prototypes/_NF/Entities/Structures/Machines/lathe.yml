@@ -101,6 +101,7 @@
     - NFServiceStatic
     - NFPaperAndPaperAccessories
     - ReportingStatic # DeltaV
+    - SexAS
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFServiceTechfabEmagStatic
