@@ -1,11 +1,3 @@
-- type: lobbyBackground
-  id: Sushivern
-  background: /Textures/LobbyScreens/sushivern.webp
-  
-- type: lobbyBackground
-  id: Epivern
-  background: /Textures/LobbyScreens/epivern.webp
-
 # - type: lobbyBackground
   # id: Warden
   # background: /Textures/LobbyScreens/warden.webp

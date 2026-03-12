@@ -1,6 +1,3 @@
-defaultWindowTitle: Aurora's Song
-windowIconSet: /Textures/_AS/Logo/icon
-splashLogo: /Textures/_AS/Logo/logo.png
-
-# This is the manifest file for Aurora's Song.
-# I'm not sure why this file originally said 'PJB PLEASE' but I am concerned
+defaultWindowTitle: NewHome
+windowIconSet: /Textures/_NewHome/Logo/icon
+splashLogo: /Textures/_NewHome/Logo/logo.png

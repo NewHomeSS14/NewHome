@@ -112,7 +112,7 @@
   - type: Inventory
     templateId: aghost
   - type: Loadout
-    prototypes: [ ASMobAghostGear ] # Aurora's Song - MobAghostGear<ASMobAghostGear
+    prototypes: [ NHMobAghostGear ] # NewHome - Has more tools!
   - type: BypassInteractionChecks
   - type: BankAccount # Frontier
   - type: ExplosionResistance
