@@ -16,19 +16,19 @@ If you want to host or create content for NewHome, this is the repo you need. It
 
 <div class="header" align="center">
 
-[Discord](https://discord.gg/CeG8RDEUF3) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | Wiki is not real
+[Discord](https://discord.gg/CeG8RDEUF3) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Wiki](http://newhome14.wiki)
 
 </div>
 
 ## Documentation/Wiki
 
-Our ( WIKI NOT CREATED ) has documentation on NewHome's content.
+Our [wiki](http://newhome14.wiki) has documentation on NewHome's content, mechanics, and general help.
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Please join us Discord if you want to help. We've got a [list of ideas](https://discord.com/channels/1123826877245694004/1127017858833068114) that we have sitting around if you want a challenge, or desire to know more about the direction of the fork. Don't be afraid to ask for help either!
+We are happy to accept contributions from just about anybody. Please join us Discord if you want to help. We've got a long list of ideas to to chip at if you want a challenge, or desire to know more about the direction of the fork. Don't be afraid to ask for help either!
 
-If you make any contributions, note that any changes made to files belonging to our upstream should be properly marked with comments (see the "Changes to upstream files" section in [CONTRIBUTING.md](https://github.com/AuroraSong14/Aurora-Song-14/blob/master/CONTRIBUTING.md)).
+If you make any contributions, note that any changes made to files belonging to our upstream should be properly marked with comments (see the "Changes to upstream files" section in [CONTRIBUTING.md](https://github.com/NewHomeSS14/NewHome/blob/master/CONTRIBUTING.md).
 
 ## Building
 
@@ -49,7 +49,7 @@ Build the server using `dotnet build`.
 
 ## License
 
-Read [LEGAL.md](https://github.com/AuroraSong14/Aurora-Song-14/blob/master/LEGAL.md) for legal information regarding code licensing, including a table of attributions for each namespace within the codebase.
+Read [LEGAL.md](https://github.com/NewHomeSS14/NewHome/blob/master/LEGAL.md) for legal information regarding code licensing, including a table of attributions for each namespace within the codebase.
 
 Most assets are licensed under CC-BY-SA 3.0 unless stated otherwise. Assets have their license and the copyright in the metadata file. Example.
 
@@ -71,6 +71,7 @@ Content under these subdirectories originate from their respective forks and may
 |--------------|-----------|-----------------|---------|
 | `_AS` | Aurora Song | https://github.com/AuroraSong14/Aurora-Song-14/ | AGPL 3.0 |
 | `_NewHome` | NewHome | https://github.com/NewHomeSS14/NewHome/ | AGPL 3.0 |
+| `_Ratcorp` | Ratcorp | https://github.com/Aether-Boi/RatCorporation | AGPL 3.0 |
 | `_NF` | Frontier Station | https://github.com/new-frontiers-14/frontier-station-14 | AGPL 3.0 |
 | `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT |
 | `_Corvax` | Corvax | https://github.com/space-syndicate/space-station-14 | MIT |
