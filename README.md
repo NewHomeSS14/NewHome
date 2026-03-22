@@ -1,5 +1,5 @@
 <div class="header" align="center">
-NewHome logo goes here.
+<img width="256" height="256" alt="nh-icon-256x256" src="https://github.com/user-attachments/assets/53093e33-15de-4326-8639-b88d196ee820" />
 </div>
 
 NewHome is a fork of [Aurora Song](https://github.com/space-wizards/space-station-14).
