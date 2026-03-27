@@ -30,6 +30,8 @@ We are happy to accept contributions from just about anybody. Please join us Dis
 
 If you make any contributions, note that any changes made to files belonging to our upstream should be properly marked with comments (see the "Changes to upstream files" section in [CONTRIBUTING.md](https://github.com/NewHomeSS14/NewHome/blob/master/CONTRIBUTING.md).
 
+If you plan on contributing to this fork PLEASE license your work under MIT or CC-BY-SA 3.0/4.0.
+
 ## Building
 
 1. Clone this repo:
