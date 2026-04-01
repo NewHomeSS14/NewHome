@@ -149,8 +149,6 @@
       - id: MiningDrillDiamond
       - id: EnergyKatana
       - id: Truncheon
-      - id: GreatswordBlueshield # Aurora
-      - id: Kanabou # Aurora: Drop to t5
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsMeleeUnique
@@ -163,7 +161,7 @@
     - id: HyperEutacticBlade
     - id: ClothingHandsKnuckleBoneCrushers
     - id: ArmBlade
-    #- id: Kanabou
+    - id: Kanabou
 
 # region ranged
 - type: entityTable
