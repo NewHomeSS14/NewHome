@@ -6400,3 +6400,561 @@ Entries:
   id: 9000
   time: '2026-03-10T13:22:55.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/782
+- author: Phoenix51505
+  changes:
+    - type: Add
+      message: Added the Replicant trait for characters to choose at creation.
+  id: 9001
+  time: '2026-03-14T07:07:17.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/784
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Extended engineering on the Heartbeat.
+    - type: Add
+      message: 'Added an APU, a Material silo and a FTL drive to the Heartbeat. '
+  id: 9002
+  time: '2026-03-16T06:29:02.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/785
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Modified some decals on the master, gave it an FTL drive!
+  id: 9003
+  time: '2026-03-16T06:29:16.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/786
+- author: Phoenix51505
+  changes:
+    - type: Fix
+      message: Fixed ghosts and pointer entities falling into FTL
+    - type: Fix
+      message: Fixed replicants being unsearchable via records
+    - type: Fix
+      message: Attempts to fix instances of being left behind despite the ESS
+  id: 9004
+  time: '2026-03-16T21:13:34.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/787
+- author: Phoenix51505
+  changes:
+    - type: Add
+      message: Added a new Ghost Role, the Shipmind AI core, and its related content
+    - type: Tweak
+      message: Increased range AI can remote into cyborg chassis to 256 metres
+    - type: Fix
+      message: >-
+        Fixed the remote control system to use absolute coordinates rather than
+        relative
+    - type: Fix
+      message: Gave Syndicate Assault Cyborgs a reason to live again
+  id: 9005
+  time: '2026-03-19T16:00:03.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/697
+- author: assignedgod
+  changes:
+    - type: Add
+      message: Added new esword colors!
+  id: 9006
+  time: '2026-03-20T03:03:51.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/794
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: You can now weld shields to repair them!
+  id: 9007
+  time: '2026-03-20T03:06:53.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/791
+- author: TurtleOfMen
+  changes:
+    - type: Add
+      message: Med/Cryo signs in The Alley
+    - type: Tweak
+      message: Major cosmetic changes to engineering in the Alley
+    - type: Tweak
+      message: Main Alley room re-arranged and decorated
+    - type: Tweak
+      message: Minor decal changes in Alley's medical area
+    - type: Tweak
+      message: Minor cosmetic tile changes in Alley's maints and pathways
+    - type: Fix
+      message: Fixed mass scanner orientation on The Alley
+    - type: Fix
+      message: Fixed under-door missing tiles on The Alley
+  id: 9008
+  time: '2026-03-20T03:07:37.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/789
+- author: snezshiba
+  changes:
+    - type: Add
+      message: Added sounds for slime emotes
+  id: 9009
+  time: '2026-03-20T03:09:41.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/795
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Made dylo and stelli remove zombie toxin from the solution
+  id: 9010
+  time: '2026-03-20T03:38:57.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/790
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Gold leaf has had its price increased
+    - type: Tweak
+      message: You can mutate gold leaf to give it seeds
+  id: 9011
+  time: '2026-03-20T04:44:21.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/792
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: Corpsman gets Medical access
+    - type: Tweak
+      message: Damascus can now have 8 max Site Workers
+    - type: Tweak
+      message: Ghost roles are no longer whitelisted
+    - type: Tweak
+      message: change Damascus's hex code
+    - type: Fix
+      message: back-end department listings
+  id: 9012
+  time: '2026-03-20T08:59:04.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/796
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Oppo now works on fairies!
+  id: 9013
+  time: '2026-03-20T19:04:21.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/797
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Reverted the storage implanter nerf
+  id: 9014
+  time: '2026-03-20T19:28:34.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/799
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: Cherry picked the double e-sword sound glitch fix
+  id: 9015
+  time: '2026-03-20T19:54:39.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/798
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: SLEO QoL changes and fixes
+    - type: Tweak
+      message: Jackhammer firerate
+    - type: Fix
+      message: grenade cartridges are now reloadable
+  id: 9016
+  time: '2026-03-21T09:06:21.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/801
+- author: assignedgod
+  changes:
+    - type: Add
+      message: Added the greatsword from the den!
+    - type: Tweak
+      message: Made the kanbou t5
+  id: 9017
+  time: '2026-03-22T18:09:29.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/805
+- author: GreyScaleHarlequin
+  changes:
+    - type: Add
+      message: Tailor's knife now exists
+  id: 9018
+  time: '2026-03-22T18:25:41.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/806
+- author: GreyScaleHarlequin
+  changes:
+    - type: Add
+      message: napsacks to hide in, and be thrown into deep space within.
+    - type: Tweak
+      message: everyone can now be stored, if they're short.
+  id: 9019
+  time: '2026-03-22T19:26:44.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/808
+- author: Phoenix51505
+  changes:
+    - type: Fix
+      message: >-
+        Fixed code in the ESS assuming that a shift length over a day is
+        impossible
+  id: 9020
+  time: '2026-03-23T06:40:31.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/814
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: rodentia can wear undergarments
+  id: 9021
+  time: '2026-03-23T07:39:04.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/810
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: converted animated tails to use the wagging feature ingame
+  id: 9022
+  time: '2026-03-23T07:43:33.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/812
+- author: Phoenix51505
+  changes:
+    - type: Tweak
+      message: >-
+        Shipmind borg was given a second hand, and their hands have been moved
+        to their combat module to avoid issues
+    - type: Tweak
+      message: >-
+        Subtle messages are now bold-italicied, a light pink colour, and allow
+        highlighting the senders name
+    - type: Fix
+      message: Construction graph for 160 FTL Drive fixed
+    - type: Fix
+      message: Mindless NPC's no longer leave chat logs for deathgasps
+    - type: Fix
+      message: Numerous fixes to the ghost role logic of ghost-role based AI's
+    - type: Add
+      message: Cyborgs have Shipboard and Shortband comms by default
+    - type: Tweak
+      message: Numerous quality of life improvements for shipmind borgs.
+    - type: Fix
+      message: >-
+        Do not be concerned by silicons screaming. It is reflexive, and they
+        cannot feel pain.
+  id: 9023
+  time: '2026-03-23T07:50:35.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/809
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: make cassette tapes more accessible
+  id: 9024
+  time: '2026-03-23T13:15:47.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/815
+- author: Phoenix51505
+  changes:
+    - type: Tweak
+      message: Most references to Edison have been renamed to Damascus
+  id: 9025
+  time: '2026-03-26T06:19:57.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/826
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: rodentia undergarments no longer show up over clothes
+  id: 9026
+  time: '2026-03-26T09:03:53.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/825
+- author: Phoenix51505
+  changes:
+    - type: Fix
+      message: >-
+        Smart equip is smarter and now knows you want to put your gun in your
+        hand rather than take out the magazine
+  id: 9027
+  time: '2026-03-26T09:05:48.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/818
+- author: snezshiba
+  changes:
+    - type: Add
+      message: Added Slime markings to Vulps. more species to come!
+  id: 9028
+  time: '2026-03-26T09:10:13.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/824
+- author: CombustibleToast
+  changes:
+    - type: Fix
+      message: Fixed condensers so that they don't operate slower at higher pressures.
+  id: 9029
+  time: '2026-03-26T09:25:28.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/821
+- author: TurtleOfMen
+  changes:
+    - type: Add
+      message: Damascus Bonus Machine next to CE
+    - type: Add
+      message: Bulk grounding rod crate to Damascus
+    - type: Add
+      message: Shipyard RCD & Damascus ID to CE office
+    - type: Add
+      message: Damascus shipyard console
+    - type: Add
+      message: Very mild cosmetic improvements to Damascus
+    - type: Remove
+      message: Damascus exped console
+    - type: Remove
+      message: Damascus RCD & Compressed matter
+    - type: Tweak
+      message: Moved Engi tank dispenser to PA room
+    - type: Tweak
+      message: Moved PA room emergency wall closet to PA airlock
+  id: 9030
+  time: '2026-03-26T09:30:43.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/828
+- author: TurtleOfMen
+  changes:
+    - type: Add
+      message: Med/Cryo signs in The Alley
+    - type: Tweak
+      message: Major cosmetic changes to engineering in the Alley
+    - type: Tweak
+      message: Main Alley room re-arranged and decorated
+    - type: Tweak
+      message: Minor decal changes in Alley's medical area
+    - type: Tweak
+      message: Minor cosmetic tile changes in Alley's maints and pathways
+    - type: Fix
+      message: Fixed mass scanner orientation on The Alley
+    - type: Fix
+      message: Fixed under-door missing tiles on The Alley
+  id: 9031
+  time: '2026-03-26T10:08:52.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/816
+- author: Leostel
+  changes:
+    - type: Add
+      message: adds the BH Barada, Damascus's first engi and salvage shuttle
+  id: 9032
+  time: '2026-03-26T10:19:53.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/829
+- author: SolStar
+  changes:
+    - type: Tweak
+      message: Added hud icons for license holders.
+  id: 9033
+  time: '2026-03-28T21:27:45.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/836
+- author: ZigTag
+  changes:
+    - type: Add
+      message: actions (added to action menu) that let you toggle your undergarments
+  id: 9034
+  time: '2026-03-29T03:11:32.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/837
+- author: ZigTag
+  changes:
+    - type: Add
+      message: inter-ship holopads
+    - type: Fix
+      message: custom emotes work over holopads
+  id: 9035
+  time: '2026-03-29T03:17:49.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/839
+- author: snezshiba
+  changes:
+    - type: Tweak
+      message: lines up Caramexinin's healing to be half of dylo's per unit
+  id: 9036
+  time: '2026-03-29T03:21:15.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/830
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: Added more seats and cuffs to the Prison riot barge.
+  id: 9037
+  time: '2026-03-29T03:21:57.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/831
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Aurora color palette for mapping
+  id: 9038
+  time: '2026-03-29T03:25:28.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/838
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: SLE Uplink Vendor is no longer a hologram on SLEO
+  id: 9039
+  time: '2026-03-29T04:52:53.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/841
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: lathe no longer eats items on cancellation
+  id: 9040
+  time: '2026-03-29T04:54:11.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/840
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Posters for BH, IAC, and CNS
+    - type: Add
+      message: Existing Shipyard Palettes
+    - type: Tweak
+      message: Refactor existing Aurora Posters
+  id: 9041
+  time: '2026-03-29T09:15:27.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/842
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: .25 mags no longer blow up
+  id: 9042
+  time: '2026-03-30T01:28:51.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/844
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: Traits you can't use will now be hidden from the menu
+  id: 9043
+  time: '2026-03-30T07:18:21.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/846
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: undergarment toggle no longer shows in action bar
+  id: 9044
+  time: '2026-03-30T08:36:54.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/847
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: IPCs now talk like damaged borgs when they're hurt
+  id: 9045
+  time: '2026-03-30T22:51:09.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/850
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: Commissioner gets an Access Configurator now
+    - type: Fix
+      message: Access Configurator; Brigmedic -> Corpsman
+  id: 9046
+  time: '2026-03-30T23:33:31.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/854
+- author: GreyScaleHarlequin
+  changes:
+    - type: Add
+      message: heelstockings of multiple types ported and listed in loadout.
+  id: 9047
+  time: '2026-03-31T06:24:49.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/856
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: Petrel back-end nitpick
+    - type: Tweak
+      message: Switch a Petrel poster spawner to the new CNS poster spawner
+  id: 9048
+  time: '2026-03-31T07:56:01.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/858
+- author: snezshiba
+  changes:
+    - type: Add
+      message: Tajaran, Felinid, Feroxi, and Rabbit Rodentia markings to Slime
+  id: 9049
+  time: '2026-03-31T08:59:38.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/855
+- author: snezshiba
+  changes:
+    - type: Fix
+      message: Fixed holocigar not having sprites for Vulpkanin
+  id: 9050
+  time: '2026-03-31T09:40:31.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/859
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Ports BodyCams from NF for loadouts and for printing from lathes
+  id: 9051
+  time: '2026-03-31T09:50:35.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/857
+- author: ZigTag
+  changes:
+    - type: Add
+      message: the records computer now knows what hull you're using!
+  id: 9052
+  time: '2026-03-31T10:20:36.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/861
+- author: Phoenix51505
+  changes:
+    - type: Add
+      message: ID Cards that now auto generate deeds are available to admins
+  id: 9053
+  time: '2026-03-31T10:36:34.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/845
+- author: Vandanna
+  changes:
+    - type: Add
+      message: IAC posters by Doner19
+    - type: Fix
+      message: Aurora poster incorrect labeling
+  id: 9054
+  time: '2026-03-31T10:40:01.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/860
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Added BH posters to BH ships.
+  id: 9055
+  time: '2026-03-31T10:50:47.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/863
+- author: TurtleOfMen
+  changes:
+    - type: Add
+      message: Added IAC Javelin large mercenary expedition shuttle.
+    - type: Add
+      message: IAC posters to harvester.yml
+  id: 9056
+  time: '2026-03-31T10:55:00.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/835
+- author: turtleofmen
+  changes:
+    - type: Fix
+      message: Harvester components
+    - type: Tweak
+      message: Harvester posters
+  id: 9057
+  time: '2026-03-31T11:18:47.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/864
+- author: turtleofmen
+  changes:
+    - type: Fix
+      message: Javelin attribution
+  id: 9058
+  time: '2026-03-31T11:30:36.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/865
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: ore decrementing no longer gets miscalculated
+  id: 9059
+  time: '2026-03-31T20:10:15.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/867
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: Sharkminnow in-hands no longer error
+  id: 9060
+  time: '2026-03-31T20:17:51.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/866
+- author: AssignedGod and GreyScaleHarlequin
+  changes:
+    - type: Add
+      message: Added the somber mapping kit from Den
+    - type: Add
+      message: Added the mantis gear from Den
+    - type: Add
+      message: Added mantis melee weapons from Den
+    - type: Tweak
+      message: Rebalanced mantis melee weapons for AS standards
+    - type: Add
+      message: Added a BUNCH of mantis Loadout items
+    - type: Add
+      message: Added napsacks
+  id: 9061
+  time: '2026-03-31T20:48:12.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/832
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Species with HSV skin tones no longer have a minimum brightness limit on
+        their skin.
+  id: 9062
+  time: '2026-03-31T20:49:55.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/868
