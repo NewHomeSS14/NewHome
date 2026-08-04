@@ -96,7 +96,7 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
-    ReptilianHiss: # Imp
+    Hiss: # Imp # Aurora's Song - Use default hiss emote
       collection: ReptilianHiss # Imp
     MonkeyScreeches: # Frontier
       collection: MonkeyScreeches # Frontier
@@ -126,7 +126,7 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
-    ReptilianHiss: # Imp
+    Hiss: # Imp
       collection: ReptilianHiss # Imp
     MonkeyScreeches: # Frontier
       collection: MonkeyScreeches # Frontier
@@ -257,19 +257,35 @@
       path: /Audio/Voice/Vox/shriek1.ogg
     Laugh:
       path: /Audio/Voice/Vox/vox_laugh.ogg
+    Sneeze:
+      path: /Audio/Voice/Vox/vox_sneeze.ogg
+    Cough:
+      path: /Audio/Voice/Vox/vox_cough.ogg
+    Sigh:
+      path: /Audio/Voice/Vox/vox_sigh.ogg
+    Click:
+      path: /Audio/Voice/Vox/vox_click.ogg
+    Chitter:
+      path: /Audio/Voice/Vox/vox_chitter.ogg
     MonkeyScreeches: # Frontier
       collection: MonkeyScreeches # Frontier
     Honk:
       collection: BikeHorn
+    Crying:
+      path: /Audio/Voice/Vox/vox_cry.ogg
     Weh:
       collection: Weh
     Hew:
       collection: Hew
+    Gasp:
+      path: /Audio/Effects/Gasp/vox_gasp.ogg
+    DefaultDeathgasp:
+      path: /Audio/Effects/Gasp/vox_DeathGasp.ogg
     Belch: # Frontier
       collection: Belch # Frontier
   params:
     variation: 0.125
-    # We need vox sounds for the other emotes
+    # TODO: We need vox sounds for the other emotes
 
 - type: emoteSounds
   id: UnisexDiona
@@ -278,6 +294,8 @@
       path: /Audio/Voice/Diona/diona_scream.ogg
     Laugh:
       collection: DionaLaugh
+    Sneeze:
+      collection: DionaSneeze
     Chirp:
       path: /Audio/Animals/nymph_chirp.ogg
     MonkeyScreeches: # Frontier
@@ -465,7 +483,7 @@
     Ping:
       path: /Audio/Effects/Cargo/ping.ogg
     Boop: # DeltaV (EE)
-      path: /Audio/_EE/Voice/IPC/beep_500.ogg      
+      path: /Audio/_EE/Voice/IPC/beep_500.ogg
     Whirr: # DeltaV (EE)
       collection: IPCWhirrs
       params:
@@ -493,7 +511,7 @@
     Ping:
       path: /Audio/Effects/Cargo/ping.ogg
     Boop: # DeltaV (EE)
-      path: /Audio/_EE/Voice/IPC/beep_500.ogg      
+      path: /Audio/_EE/Voice/IPC/beep_500.ogg
     Whirr: # DeltaV (EE)
       collection: IPCWhirrs
       params:
@@ -504,6 +522,8 @@
   params:
     variation: 0.05
   sounds:
+    Scream:
+      collection: XenoborgScream
     Laugh:
       collection: XenoborgLaugh
     Beep:
@@ -519,11 +539,97 @@
     Ping:
       collection: XenoborgPing
     Boop: # DeltaV (EE)
-      path: /Audio/_EE/Voice/IPC/beep_500.ogg      
+      path: /Audio/_EE/Voice/IPC/beep_500.ogg
     Whirr: # DeltaV (EE)
       collection: IPCWhirrs
       params:
         variation: 0
+
+# Vulp Sounds
+# Aurora's Song - Disable upstream vulpkanin
+# - type: emoteSounds
+#   id: MaleVulpkanin
+#   params:
+#     variation: 0.125
+#   sounds:
+#     Laugh:
+#       collection: MaleLaugh
+#     Sneeze:
+#       collection: VulpkaninSneeze
+#     Cough:
+#       collection: MaleCoughs
+#     Whistle:
+#       collection: Whistles
+#     Sigh:
+#       collection: MaleSigh
+#     Yawn:
+#       collection: VulpkaninYawns
+#     Scream:
+#       collection: VulpkaninScreams
+#     Growl:
+#       collection: VulpkaninGrowls
+#     Snarl:
+#       collection: VulpkaninSnarls
+#     Bark:
+#       collection: VulpkaninBarks
+#     Whine:
+#       collection: VulpkaninWhines
+#     Crying:
+#       collection: VulpkaninWhines
+#     Howl:
+#       collection: VulpkaninHowls
+#     Weh:
+#       collection: Weh
+#     Hew:
+#       collection: Hew
+#     Honk:
+#       collection: BikeHorn
+#     Gasp:
+#       collection: MaleGasp
+#     DefaultDeathgasp:
+#       collection: MaleDeathGasp
+#
+# - type: emoteSounds
+#   id: FemaleVulpkanin
+#   params:
+#     variation: 0.125
+#   sounds:
+#     Laugh:
+#       collection: FemaleLaugh
+#     Sneeze:
+#       collection: VulpkaninSneeze
+#     Cough:
+#       collection: FemaleCoughs
+#     Whistle:
+#       collection: Whistles
+#     Sigh:
+#       collection: FemaleSigh
+#     Yawn:
+#       collection: VulpkaninYawns
+#     Scream:
+#       collection: VulpkaninScreams
+#     Growl:
+#       collection: VulpkaninGrowls
+#     Snarl:
+#       collection: VulpkaninSnarls
+#     Bark:
+#       collection: VulpkaninBarks
+#     Whine:
+#       collection: VulpkaninWhines
+#     Crying:
+#       collection: VulpkaninWhines
+#     Howl:
+#       collection: VulpkaninHowls
+#     Weh:
+#       collection: Weh
+#     Hew:
+#       collection: Hew
+#     Honk:
+#       collection: BikeHorn
+#     Gasp:
+#       collection: FemaleGasp
+#     DefaultDeathgasp:
+#       collection: FemaleDeathGasp
 
 # body emotes
 - type: emoteSounds
@@ -580,6 +686,24 @@
       collection: Salutes
     Crack: # Imp
       collection: Cracks # Imp
+
+- type: emoteSounds
+  id: MothBodyEmotes
+  sounds:
+    Flap:
+      path: /Audio/Voice/Moth/moth_flap.ogg
+    Clap:
+      collection: Claps
+    ClapSingle:
+      collection: ClapSingle
+    Snap:
+      collection: Snaps
+      params:
+        volume: -6
+    Salute:
+      collection: Salutes
+    Flutter: # Aurora's Song - Add flutter from fairy
+      path: /Audio/Voice/Moth/moth_flap.ogg
 
 # mobs
 - type: emoteSounds
